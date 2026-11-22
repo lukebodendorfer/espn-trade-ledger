@@ -1,0 +1,294 @@
+<title>UCSB Trade Ledger</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a single ledger column — standings up top, then trade cards as two-sided receipts, method at the foot. */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --fg:#14202e; --muted:#5d6878; --line:#dde2e9;
+  --navy:#003660; --gold:#c99700; --gold-soft:#fdf3d6;
+  --pos:#1d7a46; --pos-soft:#e3f3e9; --neg:#b4352b; --neg-soft:#f8e4e1;
+  --chip:#eef1f5;
+  --qb:#2f5d9e; --rb:#a0661a; --wr:#6b4fa3; --te:#1f7f86; --k:#6a7380; --dst:#8a4a64;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0d141d; --surface:#151f2b; --fg:#e6ebf1; --muted:#95a1b2; --line:#273444;
+  --navy:#8db8e8; --gold:#f2c14e; --gold-soft:#2e2814;
+  --pos:#5cc98a; --pos-soft:#14301f; --neg:#ef7d72; --neg-soft:#3a1c19; --chip:#1f2b3a; --qb:#8fb4ea; --rb:#e2ae62; --wr:#b9a2e6; --te:#6cc6cc; --k:#a3acb8; --dst:#d895b2; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d141d; --surface:#151f2b; --fg:#e6ebf1; --muted:#95a1b2; --line:#273444;
+  --navy:#8db8e8; --gold:#f2c14e; --gold-soft:#2e2814;
+  --pos:#5cc98a; --pos-soft:#14301f; --neg:#ef7d72; --neg-soft:#3a1c19; --chip:#1f2b3a; --qb:#8fb4ea; --rb:#e2ae62; --wr:#b9a2e6; --te:#6cc6cc; --k:#a3acb8; --dst:#d895b2; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1040px;margin:0 auto;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:.01em}
+h1{font-size:clamp(40px,7vw,64px);line-height:.95;font-weight:800;text-transform:uppercase;color:var(--navy)}
+h1 span{color:var(--gold)}
+h2{font-size:28px;font-weight:700;text-transform:uppercase}
+.eyebrow{font:600 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+header{display:grid;gap:14px}
+header p{margin:0;max-width:64ch;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:13px;color:var(--muted)}
+.facts b{color:var(--fg);font-family:var(--mono);font-weight:600}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.pos-v{color:var(--pos)} .neg-v{color:var(--neg)}
+section{display:grid;gap:16px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+/* standings */
+.tbl-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th{font:600 11px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right}
+.mgr-btn{all:unset;cursor:pointer;font-weight:600;border-bottom:1px dashed var(--muted)}
+.mgr-btn:hover,.mgr-btn:focus-visible{color:var(--navy);border-color:var(--navy)}
+.bar{position:relative;height:10px;width:96px;background:var(--chip);border-radius:2px}
+.bar i{position:absolute;top:0;bottom:0;border-radius:2px}
+.bar .mid{position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted)}
+.best{font-size:13px;color:var(--muted)}
+.sort-btn{all:unset;cursor:pointer;display:inline-flex;gap:4px;align-items:center;font:inherit;letter-spacing:inherit;text-transform:inherit;color:var(--muted)}
+.sort-btn:hover,.sort-btn.on{color:var(--fg)}
+.sort-btn:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.sort-btn .arr{font-size:8px;opacity:.35}
+.sort-btn.on .arr{opacity:1;color:var(--navy)}
+svg.xr{width:13px;height:13px;fill:var(--neg);vertical-align:-1px;flex:none}
+.inj{font:600 11px var(--body);color:var(--neg);margin-left:4px;white-space:nowrap}
+.defn{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;display:grid;gap:12px;max-width:760px}
+.defn p{margin:0;max-width:none}
+.defn-main,.defn-note>p{max-width:72ch!important}
+.defn-main{font-size:16px}
+.defn-main abbr{font-family:var(--display);font-weight:800;font-size:20px;color:var(--navy);text-decoration:none;letter-spacing:.03em}
+.defn-calc{justify-self:start;max-width:100%;font-family:var(--mono);font-size:13px;background:var(--chip);border-radius:6px;padding:8px 10px}
+.defn>*,.defn-note>*{min-width:0}
+.defn-note{display:grid;gap:10px;font-size:13px;color:var(--muted)}
+.defn-note b{color:var(--fg)}
+.defn-note a{color:var(--navy)}
+.defn-tbl{font-size:13px}
+.defn-tbl td,.defn-tbl th{padding:6px 10px}
+.defn-tbl td{color:var(--fg)}
+.defn-tbl small{color:var(--muted)}
+td.winpct{font-weight:600;background:color-mix(in srgb,var(--c) var(--s),var(--surface))}
+/* controls */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.controls label{font-size:12px;color:var(--muted);display:flex;gap:6px;align-items:center}
+select{font:500 14px var(--body);color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+select:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.clear{font:500 13px var(--body);background:none;border:0;color:var(--navy);cursor:pointer;text-decoration:underline;padding:4px}
+/* trade cards */
+.trades{display:grid;gap:14px}
+.trade{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.t-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.t-when{font-family:var(--display);font-size:20px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+.t-when small{font-family:var(--body);font-size:12px;font-weight:500;color:var(--muted);text-transform:none;letter-spacing:0;margin-left:8px}
+.verdict{font-size:13px;color:var(--muted)}
+.verdict b{color:var(--fg)}
+.pill{display:inline-block;font:600 11px var(--body);letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:4px}
+.pill.win{background:var(--pos-soft);color:var(--pos)}
+.pill.loss{background:var(--neg-soft);color:var(--neg)}
+.pill.even{background:var(--chip);color:var(--muted)}
+.pill.src{background:var(--gold-soft);color:var(--gold)}
+.sides{display:grid;grid-template-columns:1fr 1fr}
+.side{padding:14px 16px;display:grid;gap:10px;align-content:start;min-width:0}
+.side+.side{border-left:1px solid var(--line)}
+.side-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.side-top .who{font-weight:600}
+.side-top .who small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.side-total{font-family:var(--mono);font-size:22px;font-weight:600}
+.got{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+details.player{border-top:1px solid var(--line);padding-top:8px}
+details.player summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center}
+details.player summary::-webkit-details-marker{display:none}
+.chip{--pc:var(--muted);font:600 10px var(--mono);padding:2px 5px;border-radius:3px;background:color-mix(in srgb,var(--pc) 13%,var(--surface));color:var(--pc);min-width:34px;text-align:center}
+.chip[data-pos="QB"]{--pc:var(--qb)} .chip[data-pos="RB"]{--pc:var(--rb)} .chip[data-pos="WR"]{--pc:var(--wr)} .chip[data-pos="TE"]{--pc:var(--te)} .chip[data-pos="K"]{--pc:var(--k)} .chip[data-pos="D/ST"]{--pc:var(--dst)}
+.pname{min-width:0}
+.pname b{font-weight:600}
+.pname small{display:block;color:var(--muted);font-size:12px}
+.pv{font-family:var(--mono);font-weight:600;text-align:right}
+.log{margin-top:8px;overflow-x:auto}
+.log table{font-size:12px}
+.log td,.log th{padding:4px 8px}
+.log .bench{color:var(--muted)}
+.empty{padding:24px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:10px}
+/* method */
+.method{display:grid;gap:12px;font-size:14px}
+.method p,.method ul{margin:0;max-width:72ch}
+.method ul{padding-left:20px;display:grid;gap:4px}
+.formula{font-family:var(--mono);font-size:13px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;overflow-x:auto;white-space:nowrap}
+.repl td .num{display:block}
+.repl td small{color:var(--muted);font-size:11px;white-space:nowrap}
+@media (max-width:640px){
+  .sides{grid-template-columns:1fr}
+  .side+.side{border-left:0;border-top:2px solid var(--line)}
+  .hide-sm{display:none}
+}
+@media (prefers-reduced-motion:no-preference){details.player[open] .log{animation:fade .18s ease-out}}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">UCSB Fantasy Football</div>
+    <h1>Trade <span>Ledger</span></h1>
+    <p>Every trade since 2018, valued by what each player produced for the new team over a replacement-level starter, from the trade week to the end of that season.</p>
+    <div class="facts" id="facts"></div>
+    <div class="defn">
+      <p class="defn-main"><abbr>VORP</abbr> = <b>Value Over Replacement Player<sup>*</sup></b>. It's the fantasy points a player scored for the new team after the trade, minus what a replacement-level player would have scored over the same weeks. Positive means the player beat a waiver-wire-level starter.</p>
+      <p class="defn-calc">VORP = points after trade − (replacement points per game × games remaining)</p>
+      <div class="defn-note">
+        <p><sup>*</sup><b>Replacement level</b> is the Nth-best scorer at each position that season. That player's season total divided by the games in the season (fantasy weeks minus the bye) gives a per-game rate.</p>
+        <div class="tbl-wrap"><table class="defn-tbl">
+          <thead><tr><th>Seasons</th><th class="r">QB</th><th class="r">RB</th><th class="r">WR</th><th class="r">TE</th><th class="r">K</th><th class="r">D/ST</th></tr></thead>
+          <tbody>
+            <tr><td>2020–2026 <small>(12 teams)</small></td><td class="r num">12th</td><td class="r num">30th</td><td class="r num">30th</td><td class="r num">12th</td><td class="r num">12th</td><td class="r num">12th</td></tr>
+            <tr><td>2018–2019 <small>(10 teams)</small></td><td class="r num">10th</td><td class="r num">25th</td><td class="r num">25th</td><td class="r num">10th</td><td class="r num">10th</td><td class="r num">10th</td></tr>
+          </tbody>
+        </table></div>
+        <p>The flex spot is why RB and WR go deeper: 2 RB + 2 WR per team, plus the flex, which this league fills with RBs and WRs about evenly. Kickers left the lineup in 2026, so there's no K level that year. Per-game values for every season are in <a href="#method">How the numbers work</a>.</p>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head">
+      <h2>Trade standings</h2>
+      <p>Avg VORP per trade is what a manager received minus what they gave up, averaged over their trades. Click a column heading to sort. Click a name to filter the trades below.</p>
+    </div>
+    <div class="tbl-wrap"><table id="standings"></table></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Every trade</h2>
+      <div class="controls">
+        <label for="f-season">Season <select id="f-season"></select></label>
+        <label for="f-mgr">Manager <select id="f-mgr"></select></label>
+        <label for="f-sort">Sort <select id="f-sort">
+          <option value="new">Newest first</option>
+          <option value="lop">Most lopsided</option>
+          <option value="even">Closest</option>
+        </select></label>
+        <button class="clear" id="f-clear" type="button" hidden>Clear filters</button>
+      </div>
+    </div>
+    <div class="trades" id="trades"></div>
+  </section>
+
+  <section class="method" id="method">
+    <h2>How the numbers work</h2>
+    <div class="formula">player VORP = points scored after the trade − ( replacement points per game × games remaining )</div>
+    <ul>
+      <li><b>Replacement level</b> is the season fantasy-point total of the 12th-best QB, 30th RB, 30th WR, 12th TE, 12th K and 12th D/ST in the 12-team seasons (2020 on), and of the 10th QB, 25th RB, 25th WR, 10th TE, 10th K and 10th D/ST in the 10-team 2018 and 2019 seasons. Points use this league's scoring and cover the fantasy season (week 1 through the championship week). That total is divided by the number of games that player's NFL team played during the fantasy season, which is the fantasy weeks minus the bye: 15 in 2018–19, 14 in 2020, 16 from 2021 on, and 9 or 10 so far in 2026. It doesn't matter how many of those games the player actually played.</li>
+      <li><b>Which weeks count:</b> every week from the trade week to the end of that fantasy season, whether the player was started, benched or injured. Bye weeks are left out entirely. An injured week scores 0 and still costs the replacement rate. If the receiving team drops the player, every remaining non-bye week still counts, at 0 points and minus the replacement rate. Cutting a player doesn't erase the cost of the trade. If the receiving team trades the player away again, counting stops there, because the rest of the season is valued in that later trade.</li>
+      <li><b>Trade value</b> for each side is the sum of the VORP of the players it received. The side with more wins. Trades decided by under 5 VORP are marked even.</li>
+      <li><b>Coverage:</b> 2018 to 2026. ESPN keeps no transaction log or bench rosters for 2012–2017, so those trades can't be found. 2026 runs through week <span id="cur-wk"></span>. Trades tagged “found via rosters” have no entry in ESPN's log; they were found from players moving straight from one roster to another between weeks without a waiver or free-agent add.</li>
+      <li><b>Missed games</b> are marked with a red cross. ESPN doesn't keep past injury reports, so a missed game is any week the player's NFL team played but the player didn't. That is almost always an injury, though it can also be a healthy scratch or suspension. Bye weeks aren't marked.</li>
+      <li>Kickers were removed from lineups in 2026, so there is no kicker replacement level that year.</li>
+    </ul>
+    <h3 style="font-size:20px;text-transform:uppercase">Replacement points per game</h3>
+    <div class="tbl-wrap"><table class="repl" id="repl"></table></div>
+  </section>
+</div>
+
+<script>
+const DATA = __DATA__;
+const POS_ORDER=['QB','RB','WR','TE','K','D/ST'];
+const EVEN=5;
+const $=s=>document.querySelector(s);
+const fmt=(v,d=1)=>(v>0?'+':v<0?'−':'')+Math.abs(v).toFixed(d);
+const cls=v=>v>0?'pos-v':v<0?'neg-v':'';
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+// enrich trades
+const trades=DATA.trades.map((t,i)=>{
+  const [a,b]=t.sides; const margin=Math.abs(a.vorp-b.vorp);
+  const winner = margin<EVEN?null:(a.vorp>b.vorp?a:b);
+  return {...t,idx:i,margin,winner};
+});
+
+// standings
+const M={};
+for(const t of trades){
+  const [a,b]=t.sides;
+  for(const [s,o] of [[a,b],[b,a]]){
+    const m=M[s.owner]??={name:s.owner,n:0,w:0,l:0,e:0,net:0,got:0,best:null};
+    const net=s.vorp-o.vorp; m.n++; m.net+=net; m.got+=s.vorp;
+    if(!t.winner) m.e++; else if(t.winner===s) m.w++; else m.l++;
+    if(!m.best||net>m.best.net) m.best={net,t,s};
+  }
+}
+for(const m of Object.values(M)){m.avg=m.net/m.n; m.pct=m.w/m.n;}
+const rows=Object.values(M);
+const maxAbs=Math.max(...rows.map(r=>Math.abs(r.avg)));
+const SORTS={n:'Trades',pct:'Win %',avg:'Avg VORP / trade'};
+let sortKey='pct', sortDir=-1;
+function renderStandings(){
+  rows.sort((x,y)=>sortDir*((x[sortKey]-y[sortKey])||(x.pct-y.pct)||(x.avg-y.avg)));
+  const th=k=>`<th class="r" aria-sort="${sortKey===k?(sortDir<0?'descending':'ascending'):'none'}"><button class="sort-btn${sortKey===k?' on':''}" data-sort="${k}">${SORTS[k]}<span class="arr">${sortKey===k?(sortDir<0?'▼':'▲'):'▼'}</span></button></th>`;
+  $('#standings').innerHTML=`<thead><tr><th>Manager</th>${th('n')}<th class="r">W–L–E</th>${th('pct')}${th('avg')}<th class="hide-sm" style="width:112px"></th><th class="hide-sm">Best trade</th></tr></thead><tbody>${
+  rows.map(r=>{
+    const w=Math.abs(r.avg)/maxAbs*50;
+    const bar=r.avg>=0?`<i style="left:50%;width:${w}%;background:var(--pos)"></i>`:`<i style="right:50%;width:${w}%;background:var(--neg)"></i>`;
+    const b=r.best; const bestTxt=b&&b.net>0?`${b.t.season} wk ${b.t.week}: ${esc(b.s.received.map(p=>p.name).join(', '))} <span class="num pos-v">${fmt(b.net)}</span>`:'—';
+    return `<tr><td><button class="mgr-btn" data-mgr="${esc(r.name)}">${esc(r.name)}</button></td><td class="r num">${r.n}</td><td class="r num">${r.w}–${r.l}–${r.e}</td><td class="r num winpct" style="--c:var(--${r.pct>=.5?'pos':'neg'});--s:${Math.round(Math.abs(r.pct-.5)*2*45)}%">${Math.round(r.pct*100)}%</td><td class="r num ${cls(r.avg)}"><b>${fmt(r.avg)}</b></td><td class="hide-sm"><div class="bar">${bar}<span class="mid"></span></div></td><td class="hide-sm best">${bestTxt}</td></tr>`;
+  }).join('')}</tbody>`;
+}
+renderStandings();
+
+// facts
+const seasons=[...new Set(trades.map(t=>t.season))];
+const big=[...trades].sort((a,b)=>b.margin-a.margin)[0];
+$('#facts').innerHTML=`<span><b>${trades.length}</b> trades</span><span><b>${seasons[0]}–${seasons.at(-1)}</b></span><span><b>${rows.length}</b> managers have traded</span><span>Most lopsided: <b>${big.season} wk ${big.week}</b> (${big.margin.toFixed(1)} VORP)</span>`;
+$('#cur-wk').textContent=DATA.seasons['2026'].final_week;
+
+// filters
+const fs=$('#f-season'), fm=$('#f-mgr'), fo=$('#f-sort'), fc=$('#f-clear');
+fs.innerHTML='<option value="">All</option>'+[...seasons].reverse().map(y=>`<option>${y}</option>`).join('');
+fm.innerHTML='<option value="">All</option>'+Object.keys(M).sort().map(n=>`<option>${esc(n)}</option>`).join('');
+
+const CROSS=(title)=>`<svg class="xr" viewBox="0 0 16 16" role="img" aria-label="${esc(title)}"><title>${esc(title)}</title><rect x="5.5" y="1.5" width="5" height="13" rx="1"/><rect x="1.5" y="5.5" width="13" height="5" rx="1"/></svg>`;
+function playerRow(p,t){
+  const log=p.weeks.length?`<div class="log"><table><thead><tr><th>Week</th><th class="r">Pts</th><th class="r">VORP</th><th>Lineup</th></tr></thead><tbody>${
+    p.weeks.map(g=>`<tr class="${g.started&&g.played?'':'bench'}"><td class="num">${g.w}</td><td class="r num">${g.pts.toFixed(1)}</td><td class="r num ${cls(g.vorp)}">${fmt(g.vorp)}</td><td>${g.missed?CROSS('Missed game')+' ':''}${g.dropped?(g.missed?'Dropped · missed game':'Dropped'):g.missed?'Missed game':!g.played?'Bye':g.started?'Started':'Bench'}</td></tr>`).join('')
+  }</tbody></table></div>`:`<div class="log best">Not on this team's roster after the trade.</div>`;
+  return `<details class="player"><summary><span class="chip" data-pos="${esc(p.pos)}">${esc(p.pos)}</span><span class="pname"><b>${esc(p.name)}</b>${p.missed?` ${CROSS(`Missed ${p.missed} game${p.missed>1?'s':''} after the trade, starting week ${p.first_missed}`)}<span class="inj">${p.missed} missed · from wk ${p.first_missed}</span>`:''}<small>${p.points.toFixed(1)} pts vs. ${(p.repl_ppg*p.weeks_counted).toFixed(1)} replacement pts · ${p.games} game${p.games===1?'':'s'}${p.exit==='dropped'?` · dropped after ${p.weeks_rostered} wks`:p.exit==='traded'?` · traded away after ${p.weeks_rostered} wks`:''}</small></span><span class="pv ${cls(p.vorp)}">${fmt(p.vorp)}</span></summary>${log}</details>`;
+}
+function render(){
+  const y=fs.value, m=fm.value;
+  fc.hidden=!(y||m);
+  let list=trades.filter(t=>(!y||t.season==y)&&(!m||t.sides.some(s=>s.owner===m)));
+  const s=fo.value;
+  list.sort(s==='lop'?(a,b)=>b.margin-a.margin:s==='even'?(a,b)=>a.margin-b.margin:(a,b)=>b.season-a.season||b.week-a.week);
+  if(!list.length){$('#trades').innerHTML='<div class="empty">No trades match these filters.</div>';return;}
+  $('#trades').innerHTML=list.map(t=>{
+    const sides=m?[...t.sides].sort((a,b)=>(b.owner===m)-(a.owner===m)):t.sides;
+    const verdict=t.winner?`<b>${esc(t.winner.owner)}</b> won by <span class="num">${t.margin.toFixed(1)}</span> VORP`:`Even: decided by <span class="num">${t.margin.toFixed(1)}</span> VORP`;
+    const partial=t.season===2026?' · season in progress':'';
+    return `<article class="trade"><div class="t-head"><div class="t-when">${t.season} · Week ${t.week}<small>valued through week ${t.final_week}${partial}</small></div><div class="verdict">${t.source==='rosters'?'<span class="pill src">found via rosters</span> ':''}${verdict}</div></div><div class="sides">${
+      sides.map(sd=>{
+        const tag=!t.winner?'<span class="pill even">Even</span>':t.winner===sd?'<span class="pill win">Won</span>':'<span class="pill loss">Lost</span>';
+        return `<div class="side"><div class="side-top"><div class="who">${esc(sd.owner)} ${tag}<small>${esc(sd.team)}</small></div><div class="side-total ${cls(sd.vorp)}">${fmt(sd.vorp)}</div></div><div class="got">Received</div>${sd.received.map(p=>playerRow(p,t)).join('')}</div>`;
+      }).join('')}</div></article>`;
+  }).join('');
+}
+[fs,fm,fo].forEach(el=>el.addEventListener('change',render));
+fc.addEventListener('click',()=>{fs.value='';fm.value='';render();});
+$('#standings').addEventListener('click',e=>{
+  const s=e.target.closest('.sort-btn');
+  if(s){const k=s.dataset.sort; if(k===sortKey) sortDir=-sortDir; else {sortKey=k; sortDir=-1;} renderStandings(); return;}
+  const b=e.target.closest('.mgr-btn');
+  if(b){fm.value=b.dataset.mgr;render();$('#trades').scrollIntoView({behavior:'smooth',block:'start'});}
+});
+render();
+
+// replacement table
+const yrs=Object.keys(DATA.seasons);
+$('#repl').innerHTML=`<thead><tr><th>Pos</th>${yrs.map(y=>`<th class="r">${y}</th>`).join('')}</tr></thead><tbody>${
+  POS_ORDER.map(p=>`<tr><td><span class="chip" data-pos="${p}">${p}</span> <small class="best">#${DATA.seasons[yrs.at(-2)].replacement[p]?.rank??''}</small></td>${
+    yrs.map(y=>{const r=DATA.seasons[y].replacement[p]; return `<td class="r">${r?`<span class="num">${r.ppg.toFixed(2)}</span><small>${r.rank!==(DATA.seasons[yrs.at(-2)].replacement[p]||{}).rank?'#'+r.rank+' ':''}${esc(r.player)}</small>`:'<span class="best">—</span>'}</td>`;}).join('')
+  }</tr>`).join('')}</tbody>`;
+</script>

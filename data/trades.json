@@ -1,0 +1,5588 @@
+{
+ "seasons": {
+  "2018": {
+   "final_week": 16,
+   "teams": 10,
+   "replacement": {
+    "QB": {
+     "rank": 10,
+     "player": "Cam Newton",
+     "total": 282.6,
+     "gp": 14,
+     "season_games": 15,
+     "ppg": 18.84
+    },
+    "RB": {
+     "rank": 25,
+     "player": "Sony Michel",
+     "total": 127.1,
+     "gp": 12,
+     "season_games": 15,
+     "ppg": 8.473
+    },
+    "WR": {
+     "rank": 25,
+     "player": "Dede Westbrook",
+     "total": 114.5,
+     "gp": 15,
+     "season_games": 15,
+     "ppg": 7.633
+    },
+    "TE": {
+     "rank": 10,
+     "player": "Rob Gronkowski",
+     "total": 81.8,
+     "gp": 12,
+     "season_games": 15,
+     "ppg": 5.453
+    },
+    "K": {
+     "rank": 10,
+     "player": "Stephen Gostkowski",
+     "total": 125.0,
+     "gp": 15,
+     "season_games": 15,
+     "ppg": 8.333
+    },
+    "D/ST": {
+     "rank": 10,
+     "player": "Broncos D/ST",
+     "total": 96.0,
+     "gp": 15,
+     "season_games": 15,
+     "ppg": 6.4
+    }
+   }
+  },
+  "2019": {
+   "final_week": 16,
+   "teams": 10,
+   "replacement": {
+    "QB": {
+     "rank": 10,
+     "player": "Carson Wentz",
+     "total": 258.8,
+     "gp": 15,
+     "season_games": 15,
+     "ppg": 17.253
+    },
+    "RB": {
+     "rank": 25,
+     "player": "Sony Michel",
+     "total": 127.2,
+     "gp": 15,
+     "season_games": 15,
+     "ppg": 8.48
+    },
+    "WR": {
+     "rank": 25,
+     "player": "Tyler Boyd",
+     "total": 127.0,
+     "gp": 15,
+     "season_games": 15,
+     "ppg": 8.467
+    },
+    "TE": {
+     "rank": 10,
+     "player": "Tyler Higbee",
+     "total": 77.0,
+     "gp": 14,
+     "season_games": 15,
+     "ppg": 5.133
+    },
+    "K": {
+     "rank": 10,
+     "player": "Greg Zuerlein",
+     "total": 113.0,
+     "gp": 15,
+     "season_games": 15,
+     "ppg": 7.533
+    },
+    "D/ST": {
+     "rank": 10,
+     "player": "Saints D/ST",
+     "total": 111.0,
+     "gp": 15,
+     "season_games": 15,
+     "ppg": 7.4
+    }
+   }
+  },
+  "2020": {
+   "final_week": 15,
+   "teams": 12,
+   "replacement": {
+    "QB": {
+     "rank": 12,
+     "player": "Ben Roethlisberger",
+     "total": 241.68,
+     "gp": 14,
+     "season_games": 14,
+     "ppg": 17.263
+    },
+    "RB": {
+     "rank": 30,
+     "player": "David Johnson",
+     "total": 116.1,
+     "gp": 10,
+     "season_games": 14,
+     "ppg": 8.293
+    },
+    "WR": {
+     "rank": 30,
+     "player": "Tee Higgins",
+     "total": 142.2,
+     "gp": 14,
+     "season_games": 14,
+     "ppg": 10.157
+    },
+    "TE": {
+     "rank": 12,
+     "player": "Dalton Schultz",
+     "total": 100.9,
+     "gp": 14,
+     "season_games": 14,
+     "ppg": 7.207
+    },
+    "K": {
+     "rank": 12,
+     "player": "Greg Zuerlein",
+     "total": 114.0,
+     "gp": 14,
+     "season_games": 14,
+     "ppg": 8.143
+    },
+    "D/ST": {
+     "rank": 12,
+     "player": "Giants D/ST",
+     "total": 80.0,
+     "gp": 14,
+     "season_games": 14,
+     "ppg": 5.714
+    }
+   }
+  },
+  "2021": {
+   "final_week": 17,
+   "teams": 12,
+   "replacement": {
+    "QB": {
+     "rank": 12,
+     "player": "Carson Wentz",
+     "total": 246.92,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 15.432
+    },
+    "RB": {
+     "rank": 30,
+     "player": "Sony Michel",
+     "total": 130.4,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 8.15
+    },
+    "WR": {
+     "rank": 30,
+     "player": "Kendrick Bourne",
+     "total": 148.3,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 9.269
+    },
+    "TE": {
+     "rank": 12,
+     "player": "Noah Fant",
+     "total": 122.9,
+     "gp": 15,
+     "season_games": 16,
+     "ppg": 7.681
+    },
+    "K": {
+     "rank": 12,
+     "player": "Harrison Butker",
+     "total": 125.0,
+     "gp": 15,
+     "season_games": 16,
+     "ppg": 7.812
+    },
+    "D/ST": {
+     "rank": 12,
+     "player": "Eagles D/ST",
+     "total": 108.0,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 6.75
+    }
+   }
+  },
+  "2022": {
+   "final_week": 17,
+   "teams": 12,
+   "replacement": {
+    "QB": {
+     "rank": 12,
+     "player": "Justin Herbert",
+     "total": 261.44,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 16.34
+    },
+    "RB": {
+     "rank": 30,
+     "player": "Tyler Allgeier",
+     "total": 137.9,
+     "gp": 15,
+     "season_games": 16,
+     "ppg": 8.619
+    },
+    "WR": {
+     "rank": 30,
+     "player": "Mike Williams",
+     "total": 139.8,
+     "gp": 12,
+     "season_games": 16,
+     "ppg": 8.738
+    },
+    "TE": {
+     "rank": 12,
+     "player": "Dallas Goedert",
+     "total": 106.1,
+     "gp": 11,
+     "season_games": 16,
+     "ppg": 6.631
+    },
+    "K": {
+     "rank": 12,
+     "player": "Riley Patterson",
+     "total": 126.0,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 7.875
+    },
+    "D/ST": {
+     "rank": 12,
+     "player": "Broncos D/ST",
+     "total": 99.0,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 6.188
+    }
+   }
+  },
+  "2023": {
+   "final_week": 17,
+   "teams": 12,
+   "replacement": {
+    "QB": {
+     "rank": 12,
+     "player": "C.J. Stroud",
+     "total": 254.96,
+     "gp": 14,
+     "season_games": 16,
+     "ppg": 15.935
+    },
+    "RB": {
+     "rank": 30,
+     "player": "Devin Singletary",
+     "total": 139.34,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 8.709
+    },
+    "WR": {
+     "rank": 30,
+     "player": "Garrett Wilson",
+     "total": 161.3,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 10.081
+    },
+    "TE": {
+     "rank": 12,
+     "player": "Mark Andrews",
+     "total": 112.9,
+     "gp": 10,
+     "season_games": 16,
+     "ppg": 7.056
+    },
+    "K": {
+     "rank": 12,
+     "player": "Brandon McManus",
+     "total": 130.0,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 8.125
+    },
+    "D/ST": {
+     "rank": 12,
+     "player": "Texans D/ST",
+     "total": 115.0,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 7.188
+    }
+   }
+  },
+  "2024": {
+   "final_week": 17,
+   "teams": 12,
+   "replacement": {
+    "QB": {
+     "rank": 12,
+     "player": "Brock Purdy",
+     "total": 266.86,
+     "gp": 15,
+     "season_games": 16,
+     "ppg": 16.679
+    },
+    "RB": {
+     "rank": 30,
+     "player": "Kareem Hunt",
+     "total": 143.9,
+     "gp": 13,
+     "season_games": 16,
+     "ppg": 8.994
+    },
+    "WR": {
+     "rank": 30,
+     "player": "Xavier Worthy",
+     "total": 157.7,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 9.856
+    },
+    "TE": {
+     "rank": 12,
+     "player": "Hunter Henry",
+     "total": 112.4,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 7.025
+    },
+    "K": {
+     "rank": 12,
+     "player": "Jake Elliott",
+     "total": 125.0,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 7.812
+    },
+    "D/ST": {
+     "rank": 12,
+     "player": "Lions D/ST",
+     "total": 93.0,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 5.812
+    }
+   }
+  },
+  "2025": {
+   "final_week": 17,
+   "teams": 12,
+   "replacement": {
+    "QB": {
+     "rank": 12,
+     "player": "Baker Mayfield",
+     "total": 258.7,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 16.169
+    },
+    "RB": {
+     "rank": 30,
+     "player": "Kareem Hunt",
+     "total": 131.4,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 8.213
+    },
+    "WR": {
+     "rank": 30,
+     "player": "DJ Moore",
+     "total": 143.58,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 8.974
+    },
+    "TE": {
+     "rank": 12,
+     "player": "Dalton Schultz",
+     "total": 127.4,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 7.963
+    },
+    "K": {
+     "rank": 12,
+     "player": "Eddy Pineiro",
+     "total": 131.0,
+     "gp": 13,
+     "season_games": 16,
+     "ppg": 8.188
+    },
+    "D/ST": {
+     "rank": 12,
+     "player": "Chargers D/ST",
+     "total": 110.0,
+     "gp": 16,
+     "season_games": 16,
+     "ppg": 6.875
+    }
+   }
+  },
+  "2026": {
+   "final_week": 10,
+   "teams": 12,
+   "replacement": {
+    "QB": {
+     "rank": 12,
+     "player": "Tyler Shough",
+     "total": 154.16,
+     "gp": 9,
+     "season_games": 9,
+     "ppg": 17.129
+    },
+    "RB": {
+     "rank": 30,
+     "player": "Emanuel Wilson",
+     "total": 71.8,
+     "gp": 8,
+     "season_games": 10,
+     "ppg": 7.18
+    },
+    "WR": {
+     "rank": 30,
+     "player": "Emeka Egbuka",
+     "total": 83.0,
+     "gp": 8,
+     "season_games": 9,
+     "ppg": 9.222
+    },
+    "TE": {
+     "rank": 12,
+     "player": "Pat Freiermuth",
+     "total": 71.3,
+     "gp": 9,
+     "season_games": 9,
+     "ppg": 7.922
+    },
+    "D/ST": {
+     "rank": 12,
+     "player": "Bengals D/ST",
+     "total": 53.0,
+     "gp": 9,
+     "season_games": 9,
+     "ppg": 5.889
+    }
+   }
+  }
+ },
+ "trades": [
+  {
+   "season": 2018,
+   "week": 3,
+   "source": "log",
+   "final_week": 16,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Kareem Mike Hunt",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 3040151,
+       "name": "George Kittle",
+       "pos": "TE",
+       "from": 9,
+       "repl_ppg": 5.453,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 13,
+       "weeks_counted": 13,
+       "remaining_weeks": 14,
+       "games": 13,
+       "starts": 11,
+       "points": 138.6,
+       "vorp": 67.75,
+       "weeks": [
+        {
+         "w": 3,
+         "pts": 9.9,
+         "vorp": 4.45,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 4,
+         "pts": 18.5,
+         "vorp": 13.05,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 5,
+         "pts": 8.3,
+         "vorp": 2.85,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 3.0,
+         "vorp": -2.45,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 7,
+         "pts": 15.8,
+         "vorp": 10.35,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 5.7,
+         "vorp": 0.25,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 16.8,
+         "vorp": 11.35,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 8.3,
+         "vorp": 2.85,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 5.8,
+         "vorp": 0.35,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 7.0,
+         "vorp": 1.55,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 27.0,
+         "vorp": 21.55,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 5.1,
+         "vorp": -0.35,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 7.4,
+         "vorp": 1.95,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 67.75,
+     "points": 138.6
+    },
+    {
+     "teamId": 9,
+     "team": "DownTown BrownTown",
+     "owner": "Oliver Standring",
+     "received": [
+      {
+       "playerId": 16777,
+       "name": "Carlos Hyde",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.473,
+       "exit": "dropped",
+       "missed": 2,
+       "first_missed": 7,
+       "weeks_rostered": 6,
+       "weeks_counted": 13,
+       "remaining_weeks": 14,
+       "games": 5,
+       "starts": 3,
+       "points": 48.7,
+       "vorp": -61.41,
+       "weeks": [
+        {
+         "w": 3,
+         "pts": 22.3,
+         "vorp": 13.83,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 4,
+         "pts": 14.2,
+         "vorp": 5.73,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 5,
+         "pts": 7.7,
+         "vorp": -0.77,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 3.4,
+         "vorp": -5.07,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 1.1,
+         "vorp": -7.37,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 10,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 11,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 14,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 15,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        }
+       ]
+      }
+     ],
+     "vorp": -61.41,
+     "points": 48.7
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "week": 4,
+   "source": "log",
+   "final_week": 16,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Kareem Mike Hunt",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 16460,
+       "name": "Adam Thielen",
+       "pos": "WR",
+       "from": 6,
+       "repl_ppg": 7.633,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 12,
+       "weeks_counted": 12,
+       "remaining_weeks": 13,
+       "games": 12,
+       "starts": 12,
+       "points": 150.8,
+       "vorp": 59.24,
+       "weeks": [
+        {
+         "w": 4,
+         "pts": 19.5,
+         "vorp": 11.87,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 5,
+         "pts": 17.6,
+         "vorp": 9.97,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 18.3,
+         "vorp": 10.67,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 7,
+         "pts": 17.0,
+         "vorp": 9.37,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 15.8,
+         "vorp": 8.17,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 8.7,
+         "vorp": 1.07,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 8.6,
+         "vorp": 0.97,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 18.5,
+         "vorp": 10.87,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 8.8,
+         "vorp": 1.17,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 7.8,
+         "vorp": 0.17,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 1.9,
+         "vorp": -5.73,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 8.3,
+         "vorp": 0.67,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 59.24,
+     "points": 150.8
+    },
+    {
+     "teamId": 6,
+     "team": "Last Place Team",
+     "owner": "Brett Ploussard",
+     "received": [
+      {
+       "playerId": 3060022,
+       "name": "Jordan Howard",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.473,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 12,
+       "weeks_counted": 12,
+       "remaining_weeks": 13,
+       "games": 12,
+       "starts": 9,
+       "points": 105.0,
+       "vorp": 3.36,
+       "weeks": [
+        {
+         "w": 4,
+         "pts": 2.5,
+         "vorp": -5.97,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 4.9,
+         "vorp": -3.57,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 7,
+         "pts": 10.8,
+         "vorp": 2.33,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 14.1,
+         "vorp": 5.63,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 16.7,
+         "vorp": 8.23,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 3.2,
+         "vorp": -5.27,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 6.5,
+         "vorp": -1.97,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 1.5,
+         "vorp": -6.97,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 8.0,
+         "vorp": -0.47,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 10.3,
+         "vorp": 1.83,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 13.5,
+         "vorp": 5.03,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 13.0,
+         "vorp": 4.53,
+         "played": true,
+         "missed": false,
+         "started": false
+        }
+       ]
+      }
+     ],
+     "vorp": 3.36,
+     "points": 105.0
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "week": 9,
+   "source": "log",
+   "final_week": 16,
+   "sides": [
+    {
+     "teamId": 2,
+     "team": "Mixon's Shady Pryor's",
+     "owner": "Casey Long",
+     "received": [
+      {
+       "playerId": 3042519,
+       "name": "Aaron Jones",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.473,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 16,
+       "weeks_rostered": 8,
+       "weeks_counted": 8,
+       "remaining_weeks": 8,
+       "games": 7,
+       "starts": 7,
+       "points": 101.9,
+       "vorp": 34.14,
+       "weeks": [
+        {
+         "w": 9,
+         "pts": 6.5,
+         "vorp": -1.97,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 29.2,
+         "vorp": 20.73,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 22.3,
+         "vorp": 13.83,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 15.3,
+         "vorp": 6.83,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 11.2,
+         "vorp": 2.73,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 16.6,
+         "vorp": 8.13,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 0.8,
+         "vorp": -7.67,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -8.47,
+         "played": false,
+         "missed": true,
+         "started": false
+        }
+       ]
+      },
+      {
+       "playerId": 3128720,
+       "name": "Nick Chubb",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.473,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 7,
+       "weeks_counted": 7,
+       "remaining_weeks": 8,
+       "games": 7,
+       "starts": 7,
+       "points": 121.7,
+       "vorp": 62.41,
+       "weeks": [
+        {
+         "w": 9,
+         "pts": 15.0,
+         "vorp": 6.53,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 32.9,
+         "vorp": 24.43,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 24.8,
+         "vorp": 16.33,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 13.2,
+         "vorp": 4.73,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 14.3,
+         "vorp": 5.83,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 10.0,
+         "vorp": 1.53,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 11.5,
+         "vorp": 3.03,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 96.55,
+     "points": 223.6
+    },
+    {
+     "teamId": 5,
+     "team": "Kareem Mike Hunt",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 14874,
+       "name": "Andrew Luck",
+       "pos": "QB",
+       "from": 2,
+       "repl_ppg": 18.84,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 7,
+       "weeks_counted": 7,
+       "remaining_weeks": 8,
+       "games": 7,
+       "starts": 7,
+       "points": 132.04,
+       "vorp": 0.16,
+       "weeks": [
+        {
+         "w": 10,
+         "pts": 21.2,
+         "vorp": 2.36,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 23.88,
+         "vorp": 5.04,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 22.62,
+         "vorp": 3.78,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 9.52,
+         "vorp": -9.32,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 23.56,
+         "vorp": 4.72,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 9.68,
+         "vorp": -9.16,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 21.58,
+         "vorp": 2.74,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      },
+      {
+       "playerId": 2974858,
+       "name": "Kenny Golladay",
+       "pos": "WR",
+       "from": 2,
+       "repl_ppg": 7.633,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 8,
+       "weeks_counted": 8,
+       "remaining_weeks": 8,
+       "games": 8,
+       "starts": 6,
+       "points": 71.4,
+       "vorp": 10.36,
+       "weeks": [
+        {
+         "w": 9,
+         "pts": 5.4,
+         "vorp": -2.23,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 10,
+         "pts": 13.8,
+         "vorp": 6.17,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 17.3,
+         "vorp": 9.67,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 9.0,
+         "vorp": 1.37,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 5.0,
+         "vorp": -2.63,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 0.5,
+         "vorp": -7.13,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 14.6,
+         "vorp": 6.97,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 5.8,
+         "vorp": -1.83,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 10.52,
+     "points": 203.44
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "week": 7,
+   "source": "log",
+   "final_week": 16,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "AB Got Cold Feet",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 2974858,
+       "name": "Kenny Golladay",
+       "pos": "WR",
+       "from": 8,
+       "repl_ppg": 8.467,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 10,
+       "games": 10,
+       "starts": 9,
+       "points": 115.4,
+       "vorp": 30.7,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 2.1,
+         "vorp": -6.37,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 22.3,
+         "vorp": 13.83,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 19.2,
+         "vorp": 10.73,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 11.7,
+         "vorp": 3.23,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 3.4,
+         "vorp": -5.07,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 6.1,
+         "vorp": -2.37,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 21.8,
+         "vorp": 13.33,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 14,
+         "pts": 11.8,
+         "vorp": 3.33,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 4.4,
+         "vorp": -4.07,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 12.6,
+         "vorp": 4.13,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 30.7,
+     "points": 115.4
+    },
+    {
+     "teamId": 8,
+     "team": "To Zeke? Or Not To Zeke?",
+     "owner": "Jackson Fatherree",
+     "received": [
+      {
+       "playerId": 2979477,
+       "name": "Tevin Coleman",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.48,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 10,
+       "games": 10,
+       "starts": 10,
+       "points": 79.2,
+       "vorp": -5.6,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 6.1,
+         "vorp": -2.38,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 35.8,
+         "vorp": 27.32,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 3.6,
+         "vorp": -4.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 7.2,
+         "vorp": -1.28,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 6.2,
+         "vorp": -2.28,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 10.9,
+         "vorp": 2.42,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 1.5,
+         "vorp": -6.98,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 0.6,
+         "vorp": -7.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 4.0,
+         "vorp": -4.48,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 3.3,
+         "vorp": -5.18,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": -5.6,
+     "points": 79.2
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "week": 5,
+   "source": "log",
+   "final_week": 15,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Remdesivir The Titans",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 2976212,
+       "name": "Stefon Diggs",
+       "pos": "WR",
+       "from": 10,
+       "repl_ppg": 10.157,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 10,
+       "starts": 10,
+       "points": 151.7,
+       "vorp": 50.1,
+       "weeks": [
+        {
+         "w": 5,
+         "pts": 15.6,
+         "vorp": 5.44,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 13.6,
+         "vorp": 3.44,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 7,
+         "pts": 7.8,
+         "vorp": -2.36,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 12.2,
+         "vorp": 2.04,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 16.3,
+         "vorp": 6.14,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 20.3,
+         "vorp": 10.14,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 7.4,
+         "vorp": -2.76,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 14.2,
+         "vorp": 4.04,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 24.1,
+         "vorp": 13.94,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 20.2,
+         "vorp": 10.04,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 50.1,
+     "points": 151.7
+    },
+    {
+     "teamId": 10,
+     "team": "Boogie Wonderland",
+     "owner": "Derek Saich",
+     "received": [
+      {
+       "playerId": 15847,
+       "name": "Travis Kelce",
+       "pos": "TE",
+       "from": 5,
+       "repl_ppg": 7.207,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 10,
+       "starts": 10,
+       "points": 187.26,
+       "vorp": 115.16,
+       "weeks": [
+        {
+         "w": 5,
+         "pts": 20.8,
+         "vorp": 13.59,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 19.0,
+         "vorp": 11.79,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 7,
+         "pts": 4.6,
+         "vorp": -2.61,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 20.9,
+         "vorp": 13.69,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 20.9,
+         "vorp": 13.69,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 22.86,
+         "vorp": 15.65,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 12.2,
+         "vorp": 4.99,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 23.6,
+         "vorp": 16.39,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 23.6,
+         "vorp": 16.39,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 18.8,
+         "vorp": 11.59,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 115.16,
+     "points": 187.26
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "week": 5,
+   "source": "log",
+   "final_week": 15,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Remdesivir The Titans",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 2576716,
+       "name": "Jamison Crowder",
+       "pos": "WR",
+       "from": 11,
+       "repl_ppg": 10.157,
+       "exit": null,
+       "missed": 2,
+       "first_missed": 7,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 8,
+       "starts": 1,
+       "points": 76.7,
+       "vorp": -24.9,
+       "weeks": [
+        {
+         "w": 5,
+         "pts": 21.6,
+         "vorp": 11.44,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 6,
+         "pts": 8.3,
+         "vorp": -1.86,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -10.16,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 0.0,
+         "vorp": -10.16,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 9.6,
+         "vorp": -0.56,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 11,
+         "pts": 2.1,
+         "vorp": -8.06,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 4.6,
+         "vorp": -5.56,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 19.2,
+         "vorp": 9.04,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 14,
+         "pts": 1.7,
+         "vorp": -8.46,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 15,
+         "pts": 9.6,
+         "vorp": -0.56,
+         "played": true,
+         "missed": false,
+         "started": false
+        }
+       ]
+      }
+     ],
+     "vorp": -24.9,
+     "points": 76.7
+    },
+    {
+     "teamId": 11,
+     "team": "Atlanta Turner Loose",
+     "owner": "Emily Turner",
+     "received": [
+      {
+       "playerId": 3886818,
+       "name": "Myles Gaskin",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.293,
+       "exit": null,
+       "missed": 6,
+       "first_missed": 9,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 4,
+       "starts": 3,
+       "points": 57.1,
+       "vorp": -25.8,
+       "weeks": [
+        {
+         "w": 5,
+         "pts": 17.6,
+         "vorp": 9.31,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 6,
+         "pts": 14.6,
+         "vorp": 6.31,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 11.8,
+         "vorp": 3.51,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 0.0,
+         "vorp": -8.29,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 10,
+         "pts": 0.0,
+         "vorp": -8.29,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 11,
+         "pts": 0.0,
+         "vorp": -8.29,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -8.29,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 13.1,
+         "vorp": 4.81,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 0.0,
+         "vorp": -8.29,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 15,
+         "pts": 0.0,
+         "vorp": -8.29,
+         "played": false,
+         "missed": true,
+         "started": false
+        }
+       ]
+      }
+     ],
+     "vorp": -25.8,
+     "points": 57.1
+    }
+   ]
+  },
+  {
+   "season": 2021,
+   "week": 3,
+   "source": "rosters",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 2,
+     "team": "Bishop Sycamore",
+     "owner": "Casey Long",
+     "received": [
+      {
+       "playerId": 2974858,
+       "name": "Kenny Golladay",
+       "pos": "WR",
+       "from": 8,
+       "repl_ppg": 9.269,
+       "exit": "dropped",
+       "missed": 3,
+       "first_missed": 6,
+       "weeks_rostered": 13,
+       "weeks_counted": 14,
+       "remaining_weeks": 15,
+       "games": 10,
+       "starts": 0,
+       "points": 53.2,
+       "vorp": -76.58,
+       "weeks": [
+        {
+         "w": 3,
+         "pts": 8.4,
+         "vorp": -0.87,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 4,
+         "pts": 14.6,
+         "vorp": 5.33,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 5,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 6,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 3.8,
+         "vorp": -5.47,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 11,
+         "pts": 1.7,
+         "vorp": -7.57,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 6.5,
+         "vorp": -2.77,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 5.2,
+         "vorp": -4.07,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 14,
+         "pts": 2.5,
+         "vorp": -6.77,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 15,
+         "pts": 6.8,
+         "vorp": -2.47,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 3.7,
+         "vorp": -5.57,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        }
+       ]
+      },
+      {
+       "playerId": 3040151,
+       "name": "George Kittle",
+       "pos": "TE",
+       "from": 8,
+       "repl_ppg": 7.681,
+       "exit": null,
+       "missed": 3,
+       "first_missed": 5,
+       "weeks_rostered": 14,
+       "weeks_counted": 14,
+       "remaining_weeks": 15,
+       "games": 11,
+       "starts": 11,
+       "points": 145.5,
+       "vorp": 37.98,
+       "weeks": [
+        {
+         "w": 3,
+         "pts": 13.6,
+         "vorp": 5.92,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 4,
+         "pts": 6.0,
+         "vorp": -1.68,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 5,
+         "pts": 0.0,
+         "vorp": -7.68,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -7.68,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 0.0,
+         "vorp": -7.68,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 17.1,
+         "vorp": 9.42,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 13.5,
+         "vorp": 5.82,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 11.4,
+         "vorp": 3.72,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 1.8,
+         "vorp": -5.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 35.1,
+         "vorp": 27.42,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 27.6,
+         "vorp": 19.92,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 12.3,
+         "vorp": 4.62,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 3.1,
+         "vorp": -4.58,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 4.0,
+         "vorp": -3.68,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": -38.6,
+     "points": 198.7
+    },
+    {
+     "teamId": 8,
+     "team": "Championship Kupp",
+     "owner": "Jackson Fatherree",
+     "received": [
+      {
+       "playerId": 2976592,
+       "name": "Sterling Shepard",
+       "pos": "WR",
+       "from": 2,
+       "repl_ppg": 9.269,
+       "exit": null,
+       "missed": 9,
+       "first_missed": 4,
+       "weeks_rostered": 14,
+       "weeks_counted": 14,
+       "remaining_weeks": 15,
+       "games": 5,
+       "starts": 2,
+       "points": 25.9,
+       "vorp": -103.88,
+       "weeks": [
+        {
+         "w": 3,
+         "pts": 2.6,
+         "vorp": -6.67,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 4,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 5,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 6,
+         "pts": 12.6,
+         "vorp": 3.33,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 4.5,
+         "vorp": -4.77,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 11,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 3.7,
+         "vorp": -5.57,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 15,
+         "pts": 2.5,
+         "vorp": -6.77,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -9.27,
+         "played": false,
+         "missed": true,
+         "started": false
+        }
+       ]
+      },
+      {
+       "playerId": 3121023,
+       "name": "Dallas Goedert",
+       "pos": "TE",
+       "from": 2,
+       "repl_ppg": 7.681,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 6,
+       "weeks_rostered": 14,
+       "weeks_counted": 14,
+       "remaining_weeks": 15,
+       "games": 13,
+       "starts": 10,
+       "points": 121.4,
+       "vorp": 13.88,
+       "weeks": [
+        {
+         "w": 3,
+         "pts": 7.6,
+         "vorp": -0.08,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 4,
+         "pts": 14.1,
+         "vorp": 6.42,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 5,
+         "pts": 3.8,
+         "vorp": -3.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 0.0,
+         "vorp": -7.68,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 7,
+         "pts": 10.5,
+         "vorp": 2.82,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 10.2,
+         "vorp": 2.52,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 5.8,
+         "vorp": -1.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 3.8,
+         "vorp": -3.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 8.7,
+         "vorp": 1.02,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 0.5,
+         "vorp": -7.18,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 25.5,
+         "vorp": 17.82,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 17.0,
+         "vorp": 9.32,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 3.8,
+         "vorp": -3.88,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 17,
+         "pts": 10.1,
+         "vorp": 2.42,
+         "played": true,
+         "missed": false,
+         "started": false
+        }
+       ]
+      },
+      {
+       "playerId": 3895827,
+       "name": "Ty'Son Williams",
+       "pos": "RB",
+       "from": 2,
+       "repl_ppg": 8.15,
+       "exit": "dropped",
+       "missed": 8,
+       "first_missed": 4,
+       "weeks_rostered": 2,
+       "weeks_counted": 14,
+       "remaining_weeks": 15,
+       "games": 1,
+       "starts": 1,
+       "points": 2.2,
+       "vorp": -111.9,
+       "weeks": [
+        {
+         "w": 3,
+         "pts": 2.2,
+         "vorp": -5.95,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 4,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 5,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 6,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 9,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 10,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 11,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 14,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 15,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -8.15,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        }
+       ]
+      }
+     ],
+     "vorp": -201.9,
+     "points": 149.5
+    }
+   ]
+  },
+  {
+   "season": 2022,
+   "week": 7,
+   "source": "rosters",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 7,
+     "team": "2nd In Rotisserie",
+     "owner": "Faris Barudi",
+     "received": [
+      {
+       "playerId": 4240657,
+       "name": "Michael Carter",
+       "pos": "RB",
+       "from": 8,
+       "repl_ppg": 8.619,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 13,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 9,
+       "starts": 8,
+       "points": 52.5,
+       "vorp": -33.7,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 8.4,
+         "vorp": -0.22,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 8.1,
+         "vorp": -0.52,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 15.1,
+         "vorp": 6.48,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 2.2,
+         "vorp": -6.42,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 4.6,
+         "vorp": -4.02,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -8.62,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 14,
+         "pts": 1.5,
+         "vorp": -7.12,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 3.6,
+         "vorp": -5.02,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 7.5,
+         "vorp": -1.12,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 1.5,
+         "vorp": -7.12,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": -33.7,
+     "points": 52.5
+    },
+    {
+     "teamId": 8,
+     "team": "2 \u00c7hubby 2 Waddle",
+     "owner": "Jackson Fatherree",
+     "received": [
+      {
+       "playerId": 4240455,
+       "name": "Deon Jackson",
+       "pos": "RB",
+       "from": 7,
+       "repl_ppg": 8.619,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 10,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 9,
+       "starts": 1,
+       "points": 21.6,
+       "vorp": -64.6,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 0.3,
+         "vorp": -8.32,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": -0.4,
+         "vorp": -9.02,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 4.6,
+         "vorp": -4.02,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 0.0,
+         "vorp": -8.62,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 11,
+         "pts": 3.0,
+         "vorp": -5.62,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -8.62,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 0.6,
+         "vorp": -8.02,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 15,
+         "pts": 10.1,
+         "vorp": 1.48,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 2.4,
+         "vorp": -6.22,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 17,
+         "pts": 1.0,
+         "vorp": -7.62,
+         "played": true,
+         "missed": false,
+         "started": false
+        }
+       ]
+      }
+     ],
+     "vorp": -64.6,
+     "points": 21.6
+    }
+   ]
+  },
+  {
+   "season": 2022,
+   "week": 10,
+   "source": "log",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Lets Go Brandon (Aiyuk)",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 4036133,
+       "name": "T.J. Hockenson",
+       "pos": "TE",
+       "from": 7,
+       "repl_ppg": 6.631,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 8,
+       "weeks_counted": 8,
+       "remaining_weeks": 8,
+       "games": 8,
+       "starts": 8,
+       "points": 86.3,
+       "vorp": 33.26,
+       "weeks": [
+        {
+         "w": 10,
+         "pts": 8.0,
+         "vorp": 1.37,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 5.9,
+         "vorp": -0.73,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 12.8,
+         "vorp": 6.17,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 5.3,
+         "vorp": -1.33,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 8.7,
+         "vorp": 2.07,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 6.8,
+         "vorp": 0.17,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 29.4,
+         "vorp": 22.77,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 9.4,
+         "vorp": 2.77,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      },
+      {
+       "playerId": 4361529,
+       "name": "Isiah Pacheco",
+       "pos": "RB",
+       "from": 7,
+       "repl_ppg": 8.619,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 8,
+       "weeks_counted": 8,
+       "remaining_weeks": 8,
+       "games": 8,
+       "starts": 5,
+       "points": 87.6,
+       "vorp": 18.64,
+       "weeks": [
+        {
+         "w": 10,
+         "pts": 6.2,
+         "vorp": -2.42,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 11,
+         "pts": 10.7,
+         "vorp": 2.08,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 15.1,
+         "vorp": 6.48,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 15.2,
+         "vorp": 6.58,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 14,
+         "pts": 10.8,
+         "vorp": 2.18,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 8.2,
+         "vorp": -0.42,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 9.5,
+         "vorp": 0.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 11.9,
+         "vorp": 3.28,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      },
+      {
+       "playerId": 4362628,
+       "name": "Ja'Marr Chase",
+       "pos": "WR",
+       "from": 7,
+       "repl_ppg": 8.738,
+       "exit": null,
+       "missed": 3,
+       "first_missed": 11,
+       "weeks_rostered": 7,
+       "weeks_counted": 7,
+       "remaining_weeks": 8,
+       "games": 4,
+       "starts": 5,
+       "points": 62.1,
+       "vorp": 0.92,
+       "weeks": [
+        {
+         "w": 11,
+         "pts": 0.0,
+         "vorp": -8.74,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -8.74,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 13.2,
+         "vorp": 4.46,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 23.5,
+         "vorp": 14.76,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 15.5,
+         "vorp": 6.76,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 9.9,
+         "vorp": 1.16,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -8.74,
+         "played": false,
+         "missed": true,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 52.82,
+     "points": 236.0
+    },
+    {
+     "teamId": 7,
+     "team": "2nd In Rotisserie",
+     "owner": "Faris Barudi",
+     "received": [
+      {
+       "playerId": 3115364,
+       "name": "Leonard Fournette",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.619,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 12,
+       "weeks_rostered": 7,
+       "weeks_counted": 7,
+       "remaining_weeks": 8,
+       "games": 6,
+       "starts": 6,
+       "points": 65.8,
+       "vorp": 5.46,
+       "weeks": [
+        {
+         "w": 10,
+         "pts": 10.3,
+         "vorp": 1.68,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -8.62,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 11.1,
+         "vorp": 2.48,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 7.6,
+         "vorp": -1.02,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 9.4,
+         "vorp": 0.78,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 20.7,
+         "vorp": 12.08,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 6.7,
+         "vorp": -1.92,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      },
+      {
+       "playerId": 3918639,
+       "name": "Gerald Everett",
+       "pos": "TE",
+       "from": 5,
+       "repl_ppg": 6.631,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 11,
+       "weeks_rostered": 8,
+       "weeks_counted": 8,
+       "remaining_weeks": 8,
+       "games": 7,
+       "starts": 1,
+       "points": 40.1,
+       "vorp": -12.94,
+       "weeks": [
+        {
+         "w": 10,
+         "pts": 3.3,
+         "vorp": -3.33,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 0.0,
+         "vorp": -6.63,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 5.8,
+         "vorp": -0.83,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 10.5,
+         "vorp": 3.87,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 14,
+         "pts": 5.3,
+         "vorp": -1.33,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 15,
+         "pts": 6.2,
+         "vorp": -0.43,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -6.63,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 17,
+         "pts": 9.0,
+         "vorp": 2.37,
+         "played": true,
+         "missed": false,
+         "started": false
+        }
+       ]
+      },
+      {
+       "playerId": 4040761,
+       "name": "Devin Singletary",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.619,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 7,
+       "weeks_counted": 7,
+       "remaining_weeks": 8,
+       "games": 7,
+       "starts": 7,
+       "points": 84.3,
+       "vorp": 23.96,
+       "weeks": [
+        {
+         "w": 10,
+         "pts": 15.2,
+         "vorp": 6.58,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 16.7,
+         "vorp": 8.08,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 8.5,
+         "vorp": -0.12,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 11.1,
+         "vorp": 2.48,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 4.8,
+         "vorp": -3.82,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 8.5,
+         "vorp": -0.12,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 19.5,
+         "vorp": 10.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 16.48,
+     "points": 190.2
+    }
+   ]
+  },
+  {
+   "season": 2023,
+   "week": 5,
+   "source": "log",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Lets Go Brandon (Aiyuk)",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 3121422,
+       "name": "Terry McLaurin",
+       "pos": "WR",
+       "from": 10,
+       "repl_ppg": 10.081,
+       "exit": "traded",
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 2,
+       "weeks_counted": 2,
+       "remaining_weeks": 13,
+       "games": 2,
+       "starts": 0,
+       "points": 18.0,
+       "vorp": -2.16,
+       "weeks": [
+        {
+         "w": 5,
+         "pts": 6.9,
+         "vorp": -3.18,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 6,
+         "pts": 11.1,
+         "vorp": 1.02,
+         "played": true,
+         "missed": false,
+         "started": false
+        }
+       ]
+      }
+     ],
+     "vorp": -2.16,
+     "points": 18.0
+    },
+    {
+     "teamId": 10,
+     "team": "Boogie Wonderland",
+     "owner": "Derek Saich",
+     "received": [
+      {
+       "playerId": 4429084,
+       "name": "Anthony Richardson",
+       "pos": "QB",
+       "from": 5,
+       "repl_ppg": 15.935,
+       "exit": "dropped",
+       "missed": 11,
+       "first_missed": 6,
+       "weeks_rostered": 2,
+       "weeks_counted": 12,
+       "remaining_weeks": 13,
+       "games": 1,
+       "starts": 1,
+       "points": 4.42,
+       "vorp": -186.86,
+       "weeks": [
+        {
+         "w": 5,
+         "pts": 4.42,
+         "vorp": -11.52,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 8,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 9,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 10,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 14,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 15,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -15.94,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        }
+       ]
+      }
+     ],
+     "vorp": -186.86,
+     "points": 4.42
+    }
+   ]
+  },
+  {
+   "season": 2023,
+   "week": 6,
+   "source": "rosters",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 8,
+     "team": "Jax On Jax Off",
+     "owner": "Jackson Fatherree",
+     "received": [
+      {
+       "playerId": 3915416,
+       "name": "DJ Moore",
+       "pos": "WR",
+       "from": 11,
+       "repl_ppg": 10.081,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 11,
+       "weeks_counted": 11,
+       "remaining_weeks": 12,
+       "games": 11,
+       "starts": 11,
+       "points": 133.5,
+       "vorp": 22.62,
+       "weeks": [
+        {
+         "w": 6,
+         "pts": 7.6,
+         "vorp": -2.48,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 7,
+         "pts": 9.4,
+         "vorp": -0.68,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 7.5,
+         "vorp": -2.58,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 3.9,
+         "vorp": -6.18,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 8.4,
+         "vorp": -1.68,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 19.1,
+         "vorp": 9.02,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 16.9,
+         "vorp": 6.82,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 23.8,
+         "vorp": 13.72,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 7.2,
+         "vorp": -2.88,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 3.3,
+         "vorp": -6.78,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 26.4,
+         "vorp": 16.32,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      },
+      {
+       "playerId": 4569987,
+       "name": "Jaylen Warren",
+       "pos": "RB",
+       "from": 11,
+       "repl_ppg": 8.709,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 11,
+       "weeks_counted": 11,
+       "remaining_weeks": 12,
+       "games": 11,
+       "starts": 9,
+       "points": 120.9,
+       "vorp": 25.09,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 9.6,
+         "vorp": 0.89,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 5.8,
+         "vorp": -2.91,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 12.8,
+         "vorp": 4.09,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 10,
+         "pts": 18.0,
+         "vorp": 9.29,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 22.0,
+         "vorp": 13.29,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 5.7,
+         "vorp": -3.01,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 6.0,
+         "vorp": -2.71,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 6.0,
+         "vorp": -2.71,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 9.3,
+         "vorp": 0.59,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 7.9,
+         "vorp": -0.81,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 17.8,
+         "vorp": 9.09,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 47.71,
+     "points": 254.4
+    },
+    {
+     "teamId": 11,
+     "team": "Puka party ",
+     "owner": "Emily Turner",
+     "received": [
+      {
+       "playerId": 4047365,
+       "name": "Josh Jacobs",
+       "pos": "RB",
+       "from": 8,
+       "repl_ppg": 8.709,
+       "exit": null,
+       "missed": 3,
+       "first_missed": 15,
+       "weeks_rostered": 11,
+       "weeks_counted": 11,
+       "remaining_weeks": 12,
+       "games": 8,
+       "starts": 8,
+       "points": 96.3,
+       "vorp": 0.49,
+       "weeks": [
+        {
+         "w": 6,
+         "pts": 10.3,
+         "vorp": 1.59,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 7,
+         "pts": 4.6,
+         "vorp": -4.11,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 15.8,
+         "vorp": 7.09,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 21.8,
+         "vorp": 13.09,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 11.7,
+         "vorp": 2.99,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 5.6,
+         "vorp": -3.11,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 20.5,
+         "vorp": 11.79,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 6.0,
+         "vorp": -2.71,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 0.0,
+         "vorp": -8.71,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -8.71,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -8.71,
+         "played": false,
+         "missed": true,
+         "started": false
+        }
+       ]
+      }
+     ],
+     "vorp": 0.49,
+     "points": 96.3
+    }
+   ]
+  },
+  {
+   "season": 2023,
+   "week": 7,
+   "source": "log",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Lets Go Brandon (Aiyuk)",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 4430027,
+       "name": "Sam LaPorta",
+       "pos": "TE",
+       "from": 8,
+       "repl_ppg": 7.056,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 10,
+       "starts": 10,
+       "points": 119.9,
+       "vorp": 49.3,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 8.2,
+         "vorp": 1.14,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 15.7,
+         "vorp": 8.64,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 6.0,
+         "vorp": -1.06,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 5.3,
+         "vorp": -1.76,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 15.2,
+         "vorp": 8.14,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 24.5,
+         "vorp": 17.44,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 3.7,
+         "vorp": -3.36,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 26.1,
+         "vorp": 19.04,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 3.3,
+         "vorp": -3.76,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 11.9,
+         "vorp": 4.84,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 49.3,
+     "points": 119.9
+    },
+    {
+     "teamId": 8,
+     "team": "Jax On Jax Off",
+     "owner": "Jackson Fatherree",
+     "received": [
+      {
+       "playerId": 3121422,
+       "name": "Terry McLaurin",
+       "pos": "WR",
+       "from": 5,
+       "repl_ppg": 10.081,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 10,
+       "starts": 7,
+       "points": 99.4,
+       "vorp": -1.4,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 12.0,
+         "vorp": 1.92,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 14.8,
+         "vorp": 4.72,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 9.8,
+         "vorp": -0.28,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 5.3,
+         "vorp": -4.78,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 6.8,
+         "vorp": -3.28,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 7.0,
+         "vorp": -3.08,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -10.08,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 23.1,
+         "vorp": 13.02,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 6.5,
+         "vorp": -3.58,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 17,
+         "pts": 14.1,
+         "vorp": 4.02,
+         "played": true,
+         "missed": false,
+         "started": false
+        }
+       ]
+      }
+     ],
+     "vorp": -1.4,
+     "points": 99.4
+    }
+   ]
+  },
+  {
+   "season": 2024,
+   "week": 4,
+   "source": "rosters",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 8,
+     "team": "Beam Me Up Sammy",
+     "owner": "Jackson Fatherree",
+     "received": [
+      {
+       "playerId": 4432773,
+       "name": "Brian Thomas Jr.",
+       "pos": "WR",
+       "from": 11,
+       "repl_ppg": 9.856,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 13,
+       "weeks_counted": 13,
+       "remaining_weeks": 14,
+       "games": 13,
+       "starts": 13,
+       "points": 196.3,
+       "vorp": 68.12,
+       "weeks": [
+        {
+         "w": 4,
+         "pts": 18.9,
+         "vorp": 9.04,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 5,
+         "pts": 20.7,
+         "vorp": 10.84,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 6,
+         "pts": 4.2,
+         "vorp": -5.66,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 7,
+         "pts": 19.6,
+         "vorp": 9.74,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 13.5,
+         "vorp": 3.64,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 5.2,
+         "vorp": -4.66,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 2.2,
+         "vorp": -7.66,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 11.1,
+         "vorp": 1.24,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 16.7,
+         "vorp": 6.84,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 12.6,
+         "vorp": 2.74,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 27.5,
+         "vorp": 17.64,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 23.7,
+         "vorp": 13.84,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 20.4,
+         "vorp": 10.54,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 68.12,
+     "points": 196.3
+    },
+    {
+     "teamId": 11,
+     "team": "The Rookies \ud83d\udc23\ud83c\udf7c",
+     "owner": "Emily Turner",
+     "received": [
+      {
+       "playerId": 4426385,
+       "name": "Zach Charbonnet",
+       "pos": "RB",
+       "from": 8,
+       "repl_ppg": 8.994,
+       "exit": "dropped",
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 8,
+       "weeks_counted": 13,
+       "remaining_weeks": 14,
+       "games": 8,
+       "starts": 0,
+       "points": 35.7,
+       "vorp": -81.17,
+       "weeks": [
+        {
+         "w": 4,
+         "pts": 7.9,
+         "vorp": -1.09,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 5,
+         "pts": 4.5,
+         "vorp": -4.49,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 6,
+         "pts": 4.0,
+         "vorp": -4.99,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 7,
+         "pts": 1.4,
+         "vorp": -7.59,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 9.9,
+         "vorp": 0.91,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 4.3,
+         "vorp": -4.69,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 11,
+         "pts": 1.5,
+         "vorp": -7.49,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 2.2,
+         "vorp": -6.79,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 14,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 15,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        }
+       ]
+      }
+     ],
+     "vorp": -81.17,
+     "points": 35.7
+    }
+   ]
+  },
+  {
+   "season": 2024,
+   "week": 6,
+   "source": "log",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Hawk Tua",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 4426515,
+       "name": "Puka Nacua",
+       "pos": "WR",
+       "from": 8,
+       "repl_ppg": 9.856,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 7,
+       "weeks_rostered": 11,
+       "weeks_counted": 11,
+       "remaining_weeks": 12,
+       "games": 10,
+       "starts": 9,
+       "points": 160.9,
+       "vorp": 52.44,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -9.86,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 14.6,
+         "vorp": 4.74,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 1.6,
+         "vorp": -8.26,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 14.3,
+         "vorp": 4.44,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 21.8,
+         "vorp": 11.94,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 16.2,
+         "vorp": 6.34,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 14.8,
+         "vorp": 4.94,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 35.8,
+         "vorp": 25.94,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 14.3,
+         "vorp": 4.44,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 9.6,
+         "vorp": -0.26,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 17.9,
+         "vorp": 8.04,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 52.44,
+     "points": 160.9
+    },
+    {
+     "teamId": 8,
+     "team": "Beam Me Up Sammy",
+     "owner": "Jackson Fatherree",
+     "received": [
+      {
+       "playerId": 4038815,
+       "name": "Rico Dowdle",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.994,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 8,
+       "weeks_rostered": 11,
+       "weeks_counted": 11,
+       "remaining_weeks": 12,
+       "games": 10,
+       "starts": 6,
+       "points": 113.2,
+       "vorp": 14.31,
+       "weeks": [
+        {
+         "w": 6,
+         "pts": 8.0,
+         "vorp": -0.99,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 19.2,
+         "vorp": 10.21,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 7.1,
+         "vorp": -1.89,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 11,
+         "pts": 4.4,
+         "vorp": -4.59,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 9.3,
+         "vorp": 0.31,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 19.8,
+         "vorp": 10.81,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 14,
+         "pts": 14.6,
+         "vorp": 5.61,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 14.9,
+         "vorp": 5.91,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 6.6,
+         "vorp": -2.39,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 9.3,
+         "vorp": 0.31,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 14.31,
+     "points": 113.2
+    }
+   ]
+  },
+  {
+   "season": 2024,
+   "week": 7,
+   "source": "log",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Hawk Tua",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 4242335,
+       "name": "Jonathan Taylor",
+       "pos": "RB",
+       "from": 9,
+       "repl_ppg": 8.994,
+       "exit": null,
+       "missed": 1,
+       "first_missed": 7,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 9,
+       "starts": 9,
+       "points": 141.6,
+       "vorp": 51.7,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 8,
+         "pts": 18.2,
+         "vorp": 9.21,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 7.4,
+         "vorp": -1.59,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 13.2,
+         "vorp": 4.21,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 6.5,
+         "vorp": -2.49,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 3.5,
+         "vorp": -5.49,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 16.8,
+         "vorp": 7.81,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 9.6,
+         "vorp": 0.61,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 39.8,
+         "vorp": 30.81,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 26.6,
+         "vorp": 17.61,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 51.7,
+     "points": 141.6
+    },
+    {
+     "teamId": 9,
+     "team": "Yoffs or  Waffs",
+     "owner": "Oliver Standring",
+     "received": [
+      {
+       "playerId": 4241985,
+       "name": "J.K. Dobbins",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.994,
+       "exit": "dropped",
+       "missed": 4,
+       "first_missed": 13,
+       "weeks_rostered": 9,
+       "weeks_counted": 11,
+       "remaining_weeks": 11,
+       "games": 6,
+       "starts": 6,
+       "points": 79.2,
+       "vorp": -19.69,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 8.1,
+         "vorp": -0.89,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 14.8,
+         "vorp": 5.81,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 23.5,
+         "vorp": 14.51,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 7.0,
+         "vorp": -1.99,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 18.4,
+         "vorp": 9.41,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 7.4,
+         "vorp": -1.59,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 14,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 15,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -8.99,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": false
+        }
+       ]
+      },
+      {
+       "playerId": 4426348,
+       "name": "Jayden Daniels",
+       "pos": "QB",
+       "from": 5,
+       "repl_ppg": 16.679,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 10,
+       "weeks_counted": 10,
+       "remaining_weeks": 11,
+       "games": 10,
+       "starts": 8,
+       "points": 217.24,
+       "vorp": 50.44,
+       "weeks": [
+        {
+         "w": 7,
+         "pts": 5.24,
+         "vorp": -11.44,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 8,
+         "pts": 22.24,
+         "vorp": 5.56,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 19.86,
+         "vorp": 3.18,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 8.58,
+         "vorp": -8.1,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 13.44,
+         "vorp": -3.24,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 12,
+         "pts": 30.4,
+         "vorp": 13.72,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 27.64,
+         "vorp": 10.96,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 23.64,
+         "vorp": 6.96,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 34.42,
+         "vorp": 17.74,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 31.78,
+         "vorp": 15.1,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 30.75,
+     "points": 296.44
+    }
+   ]
+  },
+  {
+   "season": 2025,
+   "week": 8,
+   "source": "log",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 2,
+     "team": "Rashee Rice is a Criminal",
+     "owner": "Casey Long",
+     "received": [
+      {
+       "playerId": 4696981,
+       "name": "Cam Skattebo",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 8.213,
+       "exit": "dropped",
+       "missed": 8,
+       "first_missed": 9,
+       "weeks_rostered": 2,
+       "weeks_counted": 9,
+       "remaining_weeks": 10,
+       "games": 1,
+       "starts": 1,
+       "points": 9.5,
+       "vorp": -64.39,
+       "weeks": [
+        {
+         "w": 8,
+         "pts": 9.5,
+         "vorp": 1.29,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 0.0,
+         "vorp": -8.21,
+         "played": false,
+         "missed": true,
+         "started": false
+        },
+        {
+         "w": 10,
+         "pts": 0.0,
+         "vorp": -8.21,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 11,
+         "pts": 0.0,
+         "vorp": -8.21,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 12,
+         "pts": 0.0,
+         "vorp": -8.21,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 13,
+         "pts": 0.0,
+         "vorp": -8.21,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 15,
+         "pts": 0.0,
+         "vorp": -8.21,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -8.21,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -8.21,
+         "played": false,
+         "started": false,
+         "dropped": true,
+         "missed": true
+        }
+       ]
+      }
+     ],
+     "vorp": -64.39,
+     "points": 9.5
+    },
+    {
+     "teamId": 5,
+     "team": "Let Me See That Boutte Wurk",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 4428331,
+       "name": "Rashee Rice",
+       "pos": "WR",
+       "from": 2,
+       "repl_ppg": 8.974,
+       "exit": null,
+       "missed": 2,
+       "first_missed": 16,
+       "weeks_rostered": 9,
+       "weeks_counted": 9,
+       "remaining_weeks": 10,
+       "games": 7,
+       "starts": 9,
+       "points": 103.9,
+       "vorp": 23.17,
+       "weeks": [
+        {
+         "w": 8,
+         "pts": 21.0,
+         "vorp": 12.03,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 16.6,
+         "vorp": 7.63,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 11,
+         "pts": 6.8,
+         "vorp": -2.17,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 20.1,
+         "vorp": 11.13,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 25.4,
+         "vorp": 16.43,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 5.4,
+         "vorp": -3.57,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 8.6,
+         "vorp": -0.37,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 0.0,
+         "vorp": -8.97,
+         "played": false,
+         "missed": true,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 0.0,
+         "vorp": -8.97,
+         "played": false,
+         "missed": true,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 23.17,
+     "points": 103.9
+    }
+   ]
+  },
+  {
+   "season": 2025,
+   "week": 11,
+   "source": "rosters",
+   "final_week": 17,
+   "sides": [
+    {
+     "teamId": 1,
+     "team": "Diamond Dogs",
+     "owner": "Andrew Clark",
+     "received": [
+      {
+       "playerId": 3886598,
+       "name": "Jauan Jennings",
+       "pos": "WR",
+       "from": 2,
+       "repl_ppg": 8.974,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 6,
+       "weeks_counted": 6,
+       "remaining_weeks": 7,
+       "games": 6,
+       "starts": 3,
+       "points": 75.9,
+       "vorp": 22.08,
+       "weeks": [
+        {
+         "w": 11,
+         "pts": 7.4,
+         "vorp": -1.57,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 12.6,
+         "vorp": 3.63,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 13,
+         "pts": 11.9,
+         "vorp": 2.93,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 17.2,
+         "vorp": 8.23,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 16,
+         "pts": 15.6,
+         "vorp": 6.63,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 17,
+         "pts": 11.2,
+         "vorp": 2.23,
+         "played": true,
+         "missed": false,
+         "started": false
+        }
+       ]
+      }
+     ],
+     "vorp": 22.08,
+     "points": 75.9
+    },
+    {
+     "teamId": 2,
+     "team": "Rashee Rice is a Criminal",
+     "owner": "Casey Long",
+     "received": [
+      {
+       "playerId": 3916148,
+       "name": "Tony Pollard",
+       "pos": "RB",
+       "from": 1,
+       "repl_ppg": 8.213,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 7,
+       "weeks_counted": 7,
+       "remaining_weeks": 7,
+       "games": 7,
+       "starts": 6,
+       "points": 81.5,
+       "vorp": 24.03,
+       "weeks": [
+        {
+         "w": 11,
+         "pts": 4.1,
+         "vorp": -4.11,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 12,
+         "pts": 6.1,
+         "vorp": -2.11,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 13,
+         "pts": 4.8,
+         "vorp": -3.41,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 14,
+         "pts": 28.1,
+         "vorp": 19.89,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 15,
+         "pts": 17.7,
+         "vorp": 9.49,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 16,
+         "pts": 10.2,
+         "vorp": 1.99,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 17,
+         "pts": 10.5,
+         "vorp": 2.29,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 24.03,
+     "points": 81.5
+    }
+   ]
+  },
+  {
+   "season": 2026,
+   "week": 8,
+   "source": "log",
+   "final_week": 10,
+   "sides": [
+    {
+     "teamId": 5,
+     "team": "Let Me See That Boutte Wurk",
+     "owner": "Luke Bodie",
+     "received": [
+      {
+       "playerId": 4695883,
+       "name": "Jalen Coker",
+       "pos": "WR",
+       "from": 11,
+       "repl_ppg": 9.222,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 3,
+       "weeks_counted": 3,
+       "remaining_weeks": 3,
+       "games": 3,
+       "starts": 3,
+       "points": 13.6,
+       "vorp": -14.06,
+       "weeks": [
+        {
+         "w": 8,
+         "pts": 8.6,
+         "vorp": -0.62,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 1.4,
+         "vorp": -7.82,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 10,
+         "pts": 3.6,
+         "vorp": -5.62,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": -14.06,
+     "points": 13.6
+    },
+    {
+     "teamId": 11,
+     "team": "Likely to cook ",
+     "owner": "Emily Turner",
+     "received": [
+      {
+       "playerId": 4429096,
+       "name": "Blake Corum",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 7.18,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 3,
+       "weeks_counted": 3,
+       "remaining_weeks": 3,
+       "games": 3,
+       "starts": 2,
+       "points": 44.5,
+       "vorp": 22.96,
+       "weeks": [
+        {
+         "w": 8,
+         "pts": 13.3,
+         "vorp": 6.12,
+         "played": true,
+         "missed": false,
+         "started": true
+        },
+        {
+         "w": 9,
+         "pts": 11.8,
+         "vorp": 4.62,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 10,
+         "pts": 19.4,
+         "vorp": 12.22,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      },
+      {
+       "playerId": 4702555,
+       "name": "Jonah Coleman",
+       "pos": "RB",
+       "from": 5,
+       "repl_ppg": 7.18,
+       "exit": null,
+       "missed": 0,
+       "first_missed": null,
+       "weeks_rostered": 2,
+       "weeks_counted": 2,
+       "remaining_weeks": 3,
+       "games": 2,
+       "starts": 1,
+       "points": 35.2,
+       "vorp": 20.84,
+       "weeks": [
+        {
+         "w": 8,
+         "pts": 18.4,
+         "vorp": 11.22,
+         "played": true,
+         "missed": false,
+         "started": false
+        },
+        {
+         "w": 9,
+         "pts": 16.8,
+         "vorp": 9.62,
+         "played": true,
+         "missed": false,
+         "started": true
+        }
+       ]
+      }
+     ],
+     "vorp": 43.8,
+     "points": 79.7
+    }
+   ]
+  }
+ ]
+}
