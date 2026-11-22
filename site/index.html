@@ -60,6 +60,7 @@ svg.xr{width:13px;height:13px;fill:var(--neg);vertical-align:-1px;flex:none}
 .inj{font:600 11px var(--body);color:var(--neg);margin-left:4px;white-space:nowrap}
 .defn{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;display:grid;gap:12px;max-width:760px}
 .defn p{margin:0;max-width:none}
+.defn-title{font-size:22px;color:var(--fg)}
 .defn-main,.defn-note>p{max-width:72ch!important}
 .defn-main{font-size:16px}
 .defn-main abbr{font-family:var(--display);font-weight:800;font-size:20px;color:var(--navy);text-decoration:none;letter-spacing:.03em}
@@ -137,8 +138,10 @@ details.player summary::-webkit-details-marker{display:none}
     <p>Every trade since 2018, valued by what each player produced for the new team over a replacement-level starter, from the trade week to the end of that season.</p>
     <div class="facts" id="facts"></div>
     <div class="defn">
+      <h2 class="defn-title">How are trade winners and losers determined?</h2>
       <p class="defn-main"><abbr>VORP</abbr> = <b>Value Over Replacement Player<sup>*</sup></b>. It's the fantasy points a player scored for the new team after the trade, minus what a replacement-level player would have scored over the same weeks. Positive means the player beat a waiver-wire-level starter.</p>
       <p class="defn-calc">VORP = points after trade − (replacement points per game × games remaining)</p>
+      <p class="defn-main">Each side of a trade scores the <b>total VORP of the players it received</b>. The side with more VORP <b>wins</b>; if the gap is under 5 VORP, the trade is <b>even</b>.</p>
       <div class="defn-note">
         <p><sup>*</sup><b>Replacement level</b> is the Nth-best scorer at each position that season. That player's season total divided by the games in the season (fantasy weeks minus the bye) gives a per-game rate.</p>
         <div class="tbl-wrap"><table class="defn-tbl">
@@ -241,8 +244,7 @@ renderStandings();
 
 // facts
 const seasons=[...new Set(trades.map(t=>t.season))];
-const big=[...trades].sort((a,b)=>b.margin-a.margin)[0];
-$('#facts').innerHTML=`<span><b>${trades.length}</b> trades</span><span><b>${seasons[0]}–${seasons.at(-1)}</b></span><span><b>${rows.length}</b> managers have traded</span><span>Most lopsided: <b>${big.season} wk ${big.week}</b> (${big.margin.toFixed(1)} VORP)</span>`;
+$('#facts').innerHTML=`<span><b>${trades.length}</b> trades</span><span><b>${seasons[0]}–${seasons.at(-1)}</b></span><span><b>${rows.length}</b> managers have traded</span>`;
 $('#cur-wk').textContent=DATA.seasons['2026'].final_week;
 
 // filters
