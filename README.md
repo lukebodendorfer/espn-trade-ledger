@@ -16,7 +16,7 @@ Open `site/index.html` in a browser to view it.
   That total is divided by the games in the fantasy season (fantasy weeks minus the bye) to get points per game.
 - **Player VORP** = points scored after the trade − (replacement points per game × games remaining).
   - Bye weeks are excluded. Injured weeks count as 0 points.
-  - If the receiving team drops the player, the remaining weeks still count at 0 points.
+  - If the receiving team drops the player, counting stops; weeks after the drop don't count.
   - If the receiving team trades the player away again, counting stops (the later trade picks it up).
 - A trade's winner is the side whose received players have more total VORP. A gap under 5 is "even".
 

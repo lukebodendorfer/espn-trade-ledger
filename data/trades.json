@@ -630,15 +630,15 @@
        "from": 5,
        "repl_ppg": 8.473,
        "exit": "dropped",
-       "missed": 2,
+       "missed": 1,
        "first_missed": 7,
        "weeks_rostered": 6,
-       "weeks_counted": 13,
+       "weeks_counted": 6,
        "remaining_weeks": 14,
        "games": 5,
        "starts": 3,
        "points": 48.7,
-       "vorp": -61.41,
+       "vorp": -2.12,
        "weeks": [
         {
          "w": 3,
@@ -687,74 +687,11 @@
          "played": true,
          "missed": false,
          "started": false
-        },
-        {
-         "w": 10,
-         "pts": 0.0,
-         "vorp": -8.47,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 11,
-         "pts": 0.0,
-         "vorp": -8.47,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 12,
-         "pts": 0.0,
-         "vorp": -8.47,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 13,
-         "pts": 0.0,
-         "vorp": -8.47,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 14,
-         "pts": 0.0,
-         "vorp": -8.47,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 15,
-         "pts": 0.0,
-         "vorp": -8.47,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 16,
-         "pts": 0.0,
-         "vorp": -8.47,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
         }
        ]
       }
      ],
-     "vorp": -61.41,
+     "vorp": -2.12,
      "points": 48.7
     }
    ]
@@ -2050,12 +1987,12 @@
        "missed": 3,
        "first_missed": 6,
        "weeks_rostered": 13,
-       "weeks_counted": 14,
+       "weeks_counted": 13,
        "remaining_weeks": 15,
        "games": 10,
        "starts": 0,
        "points": 53.2,
-       "vorp": -76.58,
+       "vorp": -67.31,
        "weeks": [
         {
          "w": 3,
@@ -2160,15 +2097,6 @@
          "played": true,
          "missed": false,
          "started": false
-        },
-        {
-         "w": 17,
-         "pts": 0.0,
-         "vorp": -9.27,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
         }
        ]
       },
@@ -2304,7 +2232,7 @@
        ]
       }
      ],
-     "vorp": -38.6,
+     "vorp": -29.33,
      "points": 198.7
     },
     {
@@ -2581,15 +2509,15 @@
        "from": 2,
        "repl_ppg": 8.15,
        "exit": "dropped",
-       "missed": 8,
+       "missed": 1,
        "first_missed": 4,
        "weeks_rostered": 2,
-       "weeks_counted": 14,
+       "weeks_counted": 2,
        "remaining_weeks": 15,
        "games": 1,
        "starts": 1,
        "points": 2.2,
-       "vorp": -111.9,
+       "vorp": -14.1,
        "weeks": [
         {
          "w": 3,
@@ -2606,119 +2534,11 @@
          "played": false,
          "missed": true,
          "started": false
-        },
-        {
-         "w": 5,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 6,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 7,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 9,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 10,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 11,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 12,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 13,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 14,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 15,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 16,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 17,
-         "pts": 0.0,
-         "vorp": -8.15,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
         }
        ]
       }
      ],
-     "vorp": -201.9,
+     "vorp": -104.1,
      "points": 149.5
     }
    ]
@@ -3509,15 +3329,15 @@
        "from": 5,
        "repl_ppg": 15.935,
        "exit": "dropped",
-       "missed": 11,
+       "missed": 1,
        "first_missed": 6,
        "weeks_rostered": 2,
-       "weeks_counted": 12,
+       "weeks_counted": 2,
        "remaining_weeks": 13,
        "games": 1,
        "starts": 1,
        "points": 4.42,
-       "vorp": -186.86,
+       "vorp": -27.46,
        "weeks": [
         {
          "w": 5,
@@ -3534,101 +3354,11 @@
          "played": false,
          "missed": true,
          "started": false
-        },
-        {
-         "w": 7,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 8,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 9,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 10,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 12,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 13,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 14,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 15,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 16,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 17,
-         "pts": 0.0,
-         "vorp": -15.94,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
         }
        ]
       }
      ],
-     "vorp": -186.86,
+     "vorp": -27.46,
      "points": 4.42
     }
    ]
@@ -4357,12 +4087,12 @@
        "missed": 0,
        "first_missed": null,
        "weeks_rostered": 8,
-       "weeks_counted": 13,
+       "weeks_counted": 8,
        "remaining_weeks": 14,
        "games": 8,
        "starts": 0,
        "points": 35.7,
-       "vorp": -81.17,
+       "vorp": -36.22,
        "weeks": [
         {
          "w": 4,
@@ -4427,56 +4157,11 @@
          "played": true,
          "missed": false,
          "started": false
-        },
-        {
-         "w": 13,
-         "pts": 0.0,
-         "vorp": -8.99,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 14,
-         "pts": 0.0,
-         "vorp": -8.99,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 15,
-         "pts": 0.0,
-         "vorp": -8.99,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 16,
-         "pts": 0.0,
-         "vorp": -8.99,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
-        },
-        {
-         "w": 17,
-         "pts": 0.0,
-         "vorp": -8.99,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
         }
        ]
       }
      ],
-     "vorp": -81.17,
+     "vorp": -36.22,
      "points": 35.7
     }
    ]
@@ -4847,15 +4532,15 @@
        "from": 5,
        "repl_ppg": 8.994,
        "exit": "dropped",
-       "missed": 4,
+       "missed": 3,
        "first_missed": 13,
        "weeks_rostered": 9,
-       "weeks_counted": 11,
+       "weeks_counted": 9,
        "remaining_weeks": 11,
        "games": 6,
        "starts": 6,
        "points": 79.2,
-       "vorp": -19.69,
+       "vorp": -1.71,
        "weeks": [
         {
          "w": 7,
@@ -4928,24 +4613,6 @@
          "played": false,
          "missed": true,
          "started": false
-        },
-        {
-         "w": 16,
-         "pts": 0.0,
-         "vorp": -8.99,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 17,
-         "pts": 0.0,
-         "vorp": -8.99,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": false
         }
        ]
       },
@@ -5049,7 +4716,7 @@
        ]
       }
      ],
-     "vorp": 30.75,
+     "vorp": 48.73,
      "points": 296.44
     }
    ]
@@ -5072,15 +4739,15 @@
        "from": 5,
        "repl_ppg": 8.213,
        "exit": "dropped",
-       "missed": 8,
+       "missed": 1,
        "first_missed": 9,
        "weeks_rostered": 2,
-       "weeks_counted": 9,
+       "weeks_counted": 2,
        "remaining_weeks": 10,
        "games": 1,
        "starts": 1,
        "points": 9.5,
-       "vorp": -64.39,
+       "vorp": -6.92,
        "weeks": [
         {
          "w": 8,
@@ -5097,74 +4764,11 @@
          "played": false,
          "missed": true,
          "started": false
-        },
-        {
-         "w": 10,
-         "pts": 0.0,
-         "vorp": -8.21,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 11,
-         "pts": 0.0,
-         "vorp": -8.21,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 12,
-         "pts": 0.0,
-         "vorp": -8.21,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 13,
-         "pts": 0.0,
-         "vorp": -8.21,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 15,
-         "pts": 0.0,
-         "vorp": -8.21,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 16,
-         "pts": 0.0,
-         "vorp": -8.21,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
-        },
-        {
-         "w": 17,
-         "pts": 0.0,
-         "vorp": -8.21,
-         "played": false,
-         "started": false,
-         "dropped": true,
-         "missed": true
         }
        ]
       }
      ],
-     "vorp": -64.39,
+     "vorp": -6.92,
      "points": 9.5
     },
     {

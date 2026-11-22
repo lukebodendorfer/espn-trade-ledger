@@ -80,9 +80,7 @@ for y in range(2018,2027):
                     if w==start: continue
                     if any(m[0]==pid and m[1]==to and abs(k[0]-w)<=1 for k,t2 in trades.items() for m in t2['moves']):
                         exit_='traded'; break
-                    exit_='dropped'
-                    if bye: continue
-                    games.append({'w':w,'pts':0.0,'vorp':round(-rp,2),'played':False,'started':False,'dropped':True,'missed':w in p['wk'] and not p['wk'][w][1]}); continue
+                    exit_='dropped'; break
                 if bye: continue
                 pts,played=p['wk'].get(w,(0.0,False))
                 games.append({'w':w,'pts':round(pts,2),'vorp':round(pts-rp,2),'played':played,'missed':w in p['wk'] and not played,'started':SLOT[w].get(pid) not in (20,21)})
