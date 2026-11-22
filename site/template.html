@@ -25,8 +25,9 @@
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
 .wrap{max-width:1040px;margin:0 auto;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
 h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:.01em}
-h1{font-size:clamp(40px,7vw,64px);line-height:.95;font-weight:800;text-transform:uppercase;color:var(--navy)}
+h1{font-size:clamp(34px,6vw,56px);line-height:.95;font-weight:800;text-transform:uppercase;color:var(--navy)}
 h1 span{color:var(--gold)}
+h1 i{font-style:normal;font-weight:400;color:var(--line);margin:0 .1em}
 h2{font-size:28px;font-weight:700;text-transform:uppercase}
 .eyebrow{font:600 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 header{display:grid;gap:14px}
@@ -60,7 +61,6 @@ svg.xr{width:13px;height:13px;fill:var(--neg);vertical-align:-1px;flex:none}
 .inj{font:600 11px var(--body);color:var(--neg);margin-left:4px;white-space:nowrap}
 .defn{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;display:grid;gap:12px;max-width:760px}
 .defn p{margin:0;max-width:none}
-.defn-title{font-size:22px;color:var(--fg)}
 .defn-main,.defn-note>p{max-width:72ch!important}
 .defn-main{font-size:16px}
 .defn-main abbr{font-family:var(--display);font-weight:800;font-size:20px;color:var(--navy);text-decoration:none;letter-spacing:.03em}
@@ -123,6 +123,7 @@ details.player summary::-webkit-details-marker{display:none}
 .repl td .num{display:block}
 .repl td small{color:var(--muted);font-size:11px;white-space:nowrap}
 @media (max-width:640px){
+  h1 i{display:none}
   .sides{grid-template-columns:1fr}
   .side+.side{border-left:0;border-top:2px solid var(--line)}
   .hide-sm{display:none}
@@ -133,12 +134,16 @@ details.player summary::-webkit-details-marker{display:none}
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">UCSB Fantasy Football</div>
-    <h1>Trade <span>Ledger</span></h1>
+    <h1>UCSB Fantasy Football <i aria-hidden="true">|</i> <span>Trade Ledger</span></h1>
     <p>Every trade since 2018, valued by what each player produced for the new team over a replacement-level starter, from the trade week to the end of that season.</p>
     <div class="facts" id="facts"></div>
+  </header>
+
+  <section>
+    <div class="sec-head">
+      <h2>How are trade winners and losers determined?</h2>
+    </div>
     <div class="defn">
-      <h2 class="defn-title">How are trade winners and losers determined?</h2>
       <p class="defn-main"><abbr>VORP</abbr> = <b>Value Over Replacement Player<sup>*</sup></b>. It's the fantasy points a player scored for the new team after the trade, minus what a replacement-level player would have scored over the same weeks. Positive means the player beat a waiver-wire-level starter.</p>
       <p class="defn-calc">VORP = points after trade − (replacement points per game × games remaining)</p>
       <p class="defn-main">Each side of a trade scores the <b>total VORP of the players it received</b>. The side with more VORP <b>wins</b>; if the gap is under 5 VORP, the trade is <b>even</b>.</p>
@@ -154,7 +159,7 @@ details.player summary::-webkit-details-marker{display:none}
         <p>The flex spot is why RB and WR go deeper: 2 RB + 2 WR per team, plus the flex, which this league fills with RBs and WRs about evenly. Kickers left the lineup in 2026, so there's no K level that year. Per-game values for every season are in <a href="#method">How the numbers work</a>.</p>
       </div>
     </div>
-  </header>
+  </section>
 
   <section>
     <div class="sec-head">
