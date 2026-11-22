@@ -122,7 +122,28 @@ details.player summary::-webkit-details-marker{display:none}
 .formula{font-family:var(--mono);font-size:12px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 12px;overflow-x:auto;white-space:nowrap}
 .repl td .num{display:block}
 .repl td small{color:var(--muted);font-size:11px;white-space:nowrap}
+.c-meta{display:none}
+.m-sort{display:none}
 @media (max-width:640px){
+  .m-sort{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+  .m-sort button{font:600 12px var(--body);color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 11px;cursor:pointer}
+  .m-sort button.on{color:var(--surface);background:var(--navy);border-color:var(--navy)}
+  .m-sort button.on::after{content:" " attr(data-dir);font-size:8px}
+  #standings thead{display:none}
+  #standings,#standings tbody{display:block}
+  #standings tr{display:grid;grid-template-columns:1fr auto auto;align-items:center;column-gap:12px;padding:9px 12px;border-bottom:1px solid var(--line)}
+  #standings tr:last-child{border-bottom:0}
+  #standings td{border:0;padding:0}
+  #standings .c-n,#standings .c-rec{display:none}
+  #standings .c-name{display:grid;gap:2px;min-width:0}
+  #standings .c-meta{display:block;font-size:11px;color:var(--muted);font-family:var(--mono)}
+  #standings .mgr-btn{font-size:14px;justify-self:start}
+  #standings td.winpct{border-radius:5px;padding:5px 8px;min-width:46px;text-align:center}
+  #standings .c-avg{min-width:54px;font-size:14px}
+  .defn-tbl td,.defn-tbl th{padding:4px 5px}
+  .defn-tbl small{display:none}
+  .defn-tbl td:first-child{white-space:nowrap}
+  .wrap{gap:24px}
   h1 i{display:none}
   .sides{grid-template-columns:1fr}
   .side+.side{border-left:0;border-top:2px solid var(--line)}
@@ -152,8 +173,8 @@ details.player summary::-webkit-details-marker{display:none}
         <div class="tbl-wrap"><table class="defn-tbl">
           <thead><tr><th>Seasons</th><th class="r">QB</th><th class="r">RB</th><th class="r">WR</th><th class="r">TE</th><th class="r">K</th><th class="r">D/ST</th></tr></thead>
           <tbody>
-            <tr><td>2020–2026 <small>(12 teams)</small></td><td class="r num">12th</td><td class="r num">30th</td><td class="r num">30th</td><td class="r num">12th</td><td class="r num">12th</td><td class="r num">12th</td></tr>
-            <tr><td>2018–2019 <small>(10 teams)</small></td><td class="r num">10th</td><td class="r num">25th</td><td class="r num">25th</td><td class="r num">10th</td><td class="r num">10th</td><td class="r num">10th</td></tr>
+            <tr><td>2020–26 <small>(12 teams)</small></td><td class="r num">12th</td><td class="r num">30th</td><td class="r num">30th</td><td class="r num">12th</td><td class="r num">12th</td><td class="r num">12th</td></tr>
+            <tr><td>2018–19 <small>(10 teams)</small></td><td class="r num">10th</td><td class="r num">25th</td><td class="r num">25th</td><td class="r num">10th</td><td class="r num">10th</td><td class="r num">10th</td></tr>
           </tbody>
         </table></div>
         <p>The flex spot is why RB and WR go deeper: 2 RB + 2 WR per team, plus the flex, which this league fills with RBs and WRs about evenly. Kickers left the lineup in 2026, so there's no K level that year. Per-game values for every season are in <a href="#method">How the numbers work</a>.</p>
@@ -166,6 +187,7 @@ details.player summary::-webkit-details-marker{display:none}
       <h2>Trade standings</h2>
       <p>Avg VORP per trade is what a manager received minus what they gave up, averaged over their trades. Click a column heading to sort. Click a name to filter the trades below.</p>
     </div>
+    <div class="m-sort" id="m-sort" role="group" aria-label="Sort standings"><span>Sort</span><button type="button" data-sort="pct">Win %</button><button type="button" data-sort="avg">Avg VORP</button><button type="button" data-sort="n">Trades</button></div>
     <div class="tbl-wrap"><table id="standings"></table></div>
   </section>
 
@@ -235,6 +257,7 @@ const maxAbs=Math.max(...rows.map(r=>Math.abs(r.avg)));
 const SORTS={n:'Trades',pct:'Win %',avg:'Avg VORP / trade'};
 let sortKey='pct', sortDir=-1;
 function renderStandings(){
+  document.querySelectorAll('#m-sort button').forEach(b=>{const on=b.dataset.sort===sortKey;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);b.dataset.dir=on?(sortDir<0?'▼':'▲'):'';});
   rows.sort((x,y)=>sortDir*((x[sortKey]-y[sortKey])||(x.pct-y.pct)||(x.avg-y.avg)));
   const th=k=>`<th class="r" aria-sort="${sortKey===k?(sortDir<0?'descending':'ascending'):'none'}"><button class="sort-btn${sortKey===k?' on':''}" data-sort="${k}">${SORTS[k]}<span class="arr">${sortKey===k?(sortDir<0?'▼':'▲'):'▼'}</span></button></th>`;
   $('#standings').innerHTML=`<thead><tr><th>Manager</th>${th('n')}<th class="r">W–L–E</th>${th('pct')}${th('avg')}<th class="hide-sm" style="width:112px"></th><th class="hide-sm">Best trade</th></tr></thead><tbody>${
@@ -242,10 +265,11 @@ function renderStandings(){
     const w=Math.abs(r.avg)/maxAbs*50;
     const bar=r.avg>=0?`<i style="left:50%;width:${w}%;background:var(--pos)"></i>`:`<i style="right:50%;width:${w}%;background:var(--neg)"></i>`;
     const b=r.best; const bestTxt=b&&b.net>0?`${b.t.season} wk ${b.t.week}: ${esc(b.s.received.map(p=>p.name).join(', '))} <span class="num pos-v">${fmt(b.net)}</span>`:'—';
-    return `<tr><td><button class="mgr-btn" data-mgr="${esc(r.name)}">${esc(r.name)}</button></td><td class="r num">${r.n}</td><td class="r num">${r.w}–${r.l}–${r.e}</td><td class="r num winpct" style="--c:var(--${r.pct>=.5?'pos':'neg'});--s:${Math.round(Math.abs(r.pct-.5)*2*45)}%">${Math.round(r.pct*100)}%</td><td class="r num ${cls(r.avg)}"><b>${fmt(r.avg)}</b></td><td class="hide-sm"><div class="bar">${bar}<span class="mid"></span></div></td><td class="hide-sm best">${bestTxt}</td></tr>`;
+    return `<tr><td class="c-name"><button class="mgr-btn" data-mgr="${esc(r.name)}">${esc(r.name)}</button><span class="c-meta">${r.n} trade${r.n>1?'s':''} · ${r.w}–${r.l}–${r.e}</span></td><td class="r num c-n">${r.n}</td><td class="r num c-rec">${r.w}–${r.l}–${r.e}</td><td class="r num winpct" style="--c:var(--${r.pct>=.5?'pos':'neg'});--s:${Math.round(Math.abs(r.pct-.5)*2*45)}%">${Math.round(r.pct*100)}%</td><td class="r num c-avg ${cls(r.avg)}"><b>${fmt(r.avg)}</b></td><td class="hide-sm"><div class="bar">${bar}<span class="mid"></span></div></td><td class="hide-sm best">${bestTxt}</td></tr>`;
   }).join('')}</tbody>`;
 }
 renderStandings();
+$('#m-sort').addEventListener('click',e=>{const s=e.target.closest('button');if(!s)return;const k=s.dataset.sort;if(k===sortKey)sortDir=-sortDir;else{sortKey=k;sortDir=-1;}renderStandings();});
 
 // facts
 const seasons=[...new Set(trades.map(t=>t.season))];
