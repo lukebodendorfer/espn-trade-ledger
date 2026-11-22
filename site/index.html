@@ -22,7 +22,8 @@
   --bg:#0d141d; --surface:#151f2b; --fg:#e6ebf1; --muted:#95a1b2; --line:#273444;
   --navy:#8db8e8; --gold:#f2c14e; --gold-soft:#2e2814;
   --pos:#5cc98a; --pos-soft:#14301f; --neg:#ef7d72; --neg-soft:#3a1c19; --chip:#1f2b3a; --qb:#8fb4ea; --rb:#e2ae62; --wr:#b9a2e6; --te:#6cc6cc; --k:#a3acb8; --dst:#d895b2; color-scheme:dark}
-body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:13px;line-height:1.45}
+html{background:var(--bg);min-height:100%}
+body{min-height:100vh;min-height:100dvh;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:13px;line-height:1.45}
 .wrap{max-width:1040px;margin:0 auto;padding-block:20px 44px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
 h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:.01em}
 h1{font-size:clamp(28px,4.6vw,42px);line-height:.95;font-weight:800;text-transform:uppercase;color:var(--navy)}
